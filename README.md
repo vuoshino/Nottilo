@@ -70,6 +70,8 @@
 
 **Android TV / Google TV:** Nottilo → Settings → *Home Screen* → *Nottilo*, accept "Allow USB debugging?" (tick *Always allow*). Done.
 
+> **What changes on Android TV / Google TV.** To take the Home button, Nottilo turns off (`pm disable-user`, nothing is uninstalled) the TV's original home screen and screensaver, Google's setup app on Google TV, Play Games and YouTube Music, and the maker's extra apps when present (for example on TCL: screen-mirroring apps, TCL Channel, messages, store demo, hotel menu, manual). Play Store, Google services, remote, Bluetooth, keyboard, settings, inputs, picture and sound are on a protected list and are never touched, and the voice assistant stays on. If turning an app off would erase your saved Wi‑Fi networks, Nottilo stops before changing anything. **Settings → Home Screen → Original brings every app back exactly as it was.** On Fire TV nothing is turned off.
+
 **Fire TV:** Amazon blocks apps from doing it by themselves, so it takes **one command, sent once**. Nottilo shows it on screen with your TV's IP already filled in (Settings → *Home Screen* → *Nottilo*):
 
 ```
@@ -139,6 +141,8 @@ Nottilo grows with the people who use it. Three ways to help:
   adb shell pm grant app.nottilo.launcher android.permission.WRITE_SECURE_SETTINGS
   ```
   Da computer con gli [Android platform-tools](https://developer.android.com/tools/releases/platform-tools), oppure da telefono Android con un'app ADB come *Remote ADB Shell* (lì scrivi solo la riga `pm grant …`). Appena il comando arriva, Nottilo prende il tasto Home da solo e lo mantiene anche dopo riavvii e aggiornamenti. Tieni attivo il *Debug ADB*.
+
+> **Cosa cambia su Android TV / Google TV.** Per prendere il tasto Home, Nottilo disattiva (`pm disable-user`, non disinstalla nulla) la Home e il salvaschermo originali, l'app di configurazione Google su Google TV, Play Giochi e YouTube Music, e le app extra della marca se ci sono (per esempio su TCL: app di mirroring, TCL Channel, messaggi, demo negozio, menu hotel, manuale). Play Store, servizi Google, telecomando, Bluetooth, tastiera, impostazioni, ingressi, immagine e audio sono in una lista protetta e non vengono mai toccati; l'assistente vocale resta acceso. Se spegnere un'app cancellerebbe le reti Wi‑Fi salvate, Nottilo si ferma prima di cambiare qualsiasi cosa. **Impostazioni → Schermata Home → Originale riporta tutte le app com'erano.** Su Fire TV non viene spento nulla.
 
 **Limiti noti:** su Fire OS 7 (Fire TV Stick più vecchie) Amazon ritarda le app di qualche secondo dopo il tasto Home, quindi può comparire per un attimo la Home di Amazon. Su Fire OS 8 e Android TV non succede.
 
