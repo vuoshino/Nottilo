@@ -17,6 +17,7 @@
 
 ## Features
 
+- **Replaces the Fire TV home screen — with a single command, once.** The Home button opens Nottilo, no root, nothing uninstalled, and one option brings Amazon's home back. [How ↓](#make-nottilo-your-home-button)
 - **Picks for tonight** — movies and series from the streaming services available in your country, with poster, plot, length and where to watch.
 - **Tabs by mood** — Horror, Mystery, Thriller, Sci‑Fi, plus a YouTube tab with the latest videos of your channels.
 - **Catalog by genre** — every title of your services in rows. Press ≡ for *"What should I watch tonight?"*, and ≡ again for another one.
@@ -46,6 +47,22 @@
    - *Android TV / Google TV:* accept "Allow USB debugging?" (tick *Always allow*).
    - *Fire TV:* Amazon doesn't let apps do this by themselves, so Nottilo shows **one command** to send once from a computer (`adb`) or an Android phone (an app like *Remote ADB Shell*), with your TV's address already filled in. From then on the Home button opens Nottilo.
 6. To go back: Settings → *Home Screen* → *Original*. Nothing is uninstalled, no root needed.
+
+## Make Nottilo your Home button
+
+**Android TV / Google TV:** Nottilo → Settings → *Home Screen* → *Nottilo*, accept "Allow USB debugging?" (tick *Always allow*). Done.
+
+**Fire TV:** Amazon blocks apps from doing it by themselves, so it takes **one command, sent once**. Nottilo shows it on screen with your TV's IP already filled in (Settings → *Home Screen* → *Nottilo*):
+
+```
+adb connect YOUR-TV-IP:5555
+adb shell pm grant app.nottilo.launcher android.permission.WRITE_SECURE_SETTINGS
+```
+
+- **From a computer:** install [Android platform-tools](https://developer.android.com/tools/releases/platform-tools) and run the two lines above.
+- **From an Android phone, no computer:** install an ADB app such as *Remote ADB Shell*, connect to `YOUR-TV-IP:5555`, accept the prompt on the TV, then type `pm grant app.nottilo.launcher android.permission.WRITE_SECURE_SETTINGS`.
+
+The moment the command arrives, Nottilo takes over the Home button by itself, and it stays that way after restarts and updates. Keep *ADB debugging* on. To go back: Settings → *Home Screen* → *Original*.
 
 Updates arrive by themselves from this page: Nottilo asks before installing. Current version: see [download/latest.json](download/latest.json).
 
@@ -77,6 +94,7 @@ Nottilo grows with the people who use it. Three ways to help:
 **Su Fire TV: apri Downloader e scrivi `4702696`** · **[⬇ Scarica Nottilo.apk](https://github.com/vuoshino/Nottilo/raw/main/download/Nottilo.apk)** · **[☕ Sostienilo su Ko‑fi](https://ko-fi.com/nottilo)** · **[💡 Idee e segnalazioni](https://github.com/vuoshino/Nottilo/issues/new/choose)**
 
 **Cosa fa**
+- **Sostituisce la Home della Fire TV con un solo comando, da dare una volta.** Il tasto Home apre Nottilo: niente root, non si disinstalla nulla, e un'opzione riporta la Home di Amazon.
 - Consigli per stasera dai servizi di streaming del tuo paese, con locandina, trama, durata e dove guardarli.
 - Schede Horror, Mistero, Thriller, Fantascienza e YouTube (gli ultimi video dei tuoi canali, anche senza chiave).
 - Catalogo per genere: premi ≡ per *"Che film ti va stasera?"*, di nuovo ≡ per un altro.
@@ -86,7 +104,16 @@ Nottilo grows with the people who use it. Three ways to help:
 - Configurazione dal telefono con un codice QR; ogni chiave viene provata subito.
 - Backup come file sul telefono o automatico sul tuo Google Drive.
 
-**Installazione:** Opzioni sviluppatore → *Debug ADB* attivo e origini sconosciute per *Downloader* → in Downloader scrivi il codice **`4702696`** → apri Nottilo e inquadra il QR. Per il tasto Home: Impostazioni → *Schermata Home* → *Nottilo* (su Fire TV serve un comando una volta sola, da computer o telefono: Nottilo te lo mostra già pronto).
+**Installazione:** Opzioni sviluppatore → *Debug ADB* attivo e origini sconosciute per *Downloader* → in Downloader scrivi il codice **`4702696`** → apri Nottilo e inquadra il QR. 
+
+**Nottilo come Home (tasto Home)**
+- *Android TV / Google TV:* Impostazioni → *Schermata Home* → *Nottilo* e accetta il debug USB. Fatto.
+- *Fire TV:* serve **un solo comando, una volta sola**. Nottilo te lo mostra già pronto con l'IP del tuo TV (Impostazioni → *Schermata Home* → *Nottilo*):
+  ```
+  adb connect IP-DEL-TV:5555
+  adb shell pm grant app.nottilo.launcher android.permission.WRITE_SECURE_SETTINGS
+  ```
+  Da computer con gli [Android platform-tools](https://developer.android.com/tools/releases/platform-tools), oppure da telefono Android con un'app ADB come *Remote ADB Shell* (lì scrivi solo la riga `pm grant …`). Appena il comando arriva, Nottilo prende il tasto Home da solo e lo mantiene anche dopo riavvii e aggiornamenti. Tieni attivo il *Debug ADB*.
 
 **Limiti noti:** su Fire OS 7 (Fire TV Stick più vecchie) Amazon ritarda le app di qualche secondo dopo il tasto Home, quindi può comparire per un attimo la Home di Amazon. Su Fire OS 8 e Android TV non succede.
 
