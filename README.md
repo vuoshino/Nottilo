@@ -14,7 +14,7 @@
 <p align="center"><b>Fire TV: open the <i>Downloader</i> app and type <code>4702696</code></b></p>
 
 <p align="center"><b>Nottilo is free and made by one person. If you like it, support it on <a href="https://ko-fi.com/nottilo">Ko‑fi</a> or <a href="https://paypal.me/costantinishipping">PayPal</a> ☕ — every coffee goes into new features.</b><br>
-<a href="#italiano">Italiano</a> · <a href="#contribute">How to contribute</a></p>
+<a href="#italiano">Italiano</a> · <a href="#permissions--security">Permissions &amp; security</a> · <a href="#contribute">How to contribute</a></p>
 
 ---
 
@@ -98,6 +98,45 @@ The moment the command arrives, Nottilo takes over the Home button by itself, an
 
 Your keys, name and city stay **on your TV only**. Nottilo has no server and collects nothing. It talks only to the services you give a key to (TMDB, OMDb, Watchmode, YouTube), to Open‑Meteo for the weather, and to GitHub for updates.
 
+## Permissions & security
+
+Nottilo's own source code isn't public yet (it's built on the open‑source [Free My TV](https://github.com/simbasjungles/free-my-tv)), so here is exactly what it can do, and how to check the file yourself.
+
+**What it asks for, and why**
+
+| Permission | What it's used for |
+| --- | --- |
+| Internet, network state | Posters, scores, trailers, weather, update check. |
+| Start at boot | Coming back as your home screen after a restart. |
+| Close background apps | The **Free memory** button. |
+| Read TV channels | The Live TV row, on TVs that have channels. |
+| Install apps | Installing a Nottilo update — only after you confirm it. |
+| Write secure settings | Granted **only if you run the adb command yourself**. Lets Nottilo keep its Home‑button service switched on after updates and restarts. Nothing else. |
+| Accessibility: *Home button* (Fire TV) | Notices only when Amazon's home screen comes to the front, then opens Nottilo. It watches Amazon's launcher only and **cannot read the screen, text or keys**. |
+| Accessibility: *Remote buttons* (optional, off by default) | If you turn it on: reads the remote's buttons to open the apps you chose. No screen content, no text. |
+
+- **Android TV:** when *you* choose to make Nottilo your home, it uses the TV's own debugging connection (on the TV itself, never over the internet) to set it and switch off the stock home — after asking. Manufacturer extras are switched off only if you turn that on, and you can switch everything back from Settings.
+- **Phone setup:** while the *Keys* screen is open, the TV shows a small page on your Wi‑Fi, protected by a PIN inside the QR code. It stops as soon as you leave that screen.
+
+**Where it connects — and nowhere else**
+
+- TMDB, OMDb, Watchmode, YouTube — with your own keys
+- Open‑Meteo — the weather for your city
+- GitHub — to check for updates
+- Google — only if you set up the optional backup, and only to your own Drive
+
+No ads, no analytics, no trackers, no accounts, no Nottilo server.
+
+**Check the APK yourself**
+
+- 🛡️ **[VirusTotal scan of the current APK](https://www.virustotal.com/gui/file/3599f8a40a99e6420f77447c989df40a7ade5bcef75768534dd49c39dd04d6ca)** — checked by about 70 antivirus engines.
+- **SHA‑256 of Nottilo 1.2.2:**
+  `3599f8a40a99e6420f77447c989df40a7ade5bcef75768534dd49c39dd04d6ca`  
+  Check it with `certutil -hashfile Nottilo.apk SHA256` (Windows) or `shasum -a 256 Nottilo.apk` (Mac, Linux). Each version's value is also in [download/latest.json](download/latest.json).
+- **Signing certificate (SHA‑256):**
+  `26ed25a1fc9e32bf362c3f0d7b20c77cb24594d9b5a2f610a6de8a8375954eba`  
+  Every official Nottilo is signed with this key. Android refuses to update the app with a file signed by anyone else, and Nottilo's updater checks it too.
+
 ## Contribute
 
 Nottilo grows with the people who use it. Three ways to help:
@@ -151,6 +190,8 @@ Nottilo grows with the people who use it. Three ways to help:
 **Aggiornare:** basta premere **Cerca aggiornamenti**. Scendi sotto le tue app per aprire il cassetto, scegli *Cerca aggiornamenti* e conferma: non serve riscaricare nulla. Nottilo controlla anche da solo ogni poche ore e chiede prima di installare.
 
 **Privacy:** chiavi, nome e città restano solo sul televisore. Nottilo non ha server e non raccoglie nulla.
+
+**Permessi e sicurezza:** il codice di Nottilo non è ancora pubblico (nasce dal progetto open source Free My TV), quindi qui sopra, in [Permissions & security](#permissions--security), c'è l'elenco di ogni permesso e del perché serve. In breve: niente pubblicità, statistiche o tracciamento. Si collega solo a TMDB, OMDb, Watchmode e YouTube (con le tue chiavi), Open‑Meteo per il meteo, GitHub per gli aggiornamenti e, se lo attivi, al tuo Google Drive per il backup. Il servizio di accessibilità su Fire TV vede solo quando compare la home di Amazon: non legge lo schermo, i testi o i tasti. Puoi controllare l'APK su **[VirusTotal](https://www.virustotal.com/gui/file/3599f8a40a99e6420f77447c989df40a7ade5bcef75768534dd49c39dd04d6ca)** e confrontarne l'impronta SHA‑256 con quella indicata sopra.
 
 **Contribuisci al progetto**
 - ☕ **[Sostienilo su Ko‑fi](https://ko-fi.com/nottilo)**: Nottilo è gratuito e fatto da una persona sola, ogni caffè diventa nuove funzioni. Senza account, con PayPal o carta.
