@@ -23,7 +23,10 @@
 - **Picks for tonight** — movies and series from the streaming services available in your country, with poster, plot, length and where to watch.
 - **Tabs by mood** — Horror, Mystery, Thriller, Sci‑Fi, plus a YouTube tab with the latest videos of your channels.
 - **Catalog by genre** — every title of your services in rows: select *Catalog ›* next to the tabs (or press ≡ on a Fire TV remote). Inside, *"What should I watch tonight?"* picks one for you (≡ on Fire TV rerolls it).
-- **Learns your taste** — hold OK on a card: *Watched* or *Add to list*. After *Watched* it asks if you liked it, and the next picks follow.
+- **Hold OK to mark, rate and save** — learns your taste:
+  - **On the home screen:** hold OK on a pick → a menu with *Watched* or *Add to list*.
+  - **In the catalog:** hold OK on any poster → it's marked *watched* at once (hold again to undo). Press OK to open it and add it to *My list*.
+  - After *Watched* it asks **"Did you like it?"** 👍 / 👎, and the next picks follow your answer.
 - **My list and Continue watching.**
 - **Scores** — IMDb and Rotten Tomatoes (optional OMDb key).
 - **Opens titles straight in their app** — Netflix, Prime Video, Disney+… (optional Watchmode key).
@@ -114,7 +117,10 @@ Nottilo grows with the people who use it. Three ways to help:
 - Consigli per stasera dai servizi di streaming del tuo paese, con locandina, trama, durata e dove guardarli.
 - Schede Horror, Mistero, Thriller, Fantascienza e YouTube (gli ultimi video dei tuoi canali, anche senza chiave).
 - Catalogo per genere: premi OK su *Catalogo ›* accanto alle schede (sul telecomando Fire TV basta il tasto ≡). Dentro, *"Che film ti va stasera?"* ne sceglie uno per te (≡ su Fire TV ne propone un altro).
-- Tieni premuto OK su un consiglio: *Già visto* o *Aggiungi alla lista*. Dopo *Già visto* ti chiede se ti è piaciuto e i consigli si adattano.
+- **Tieni premuto OK per segnare, votare e salvare:**
+  - **in Home**, su un consiglio: menu con *Già visto* o *Aggiungi alla lista*;
+  - **nel Catalogo**, su qualsiasi locandina: lo segna subito come *già visto* (tieni premuto di nuovo per annullare); con OK lo apri e lo aggiungi a *La mia lista*;
+  - dopo *Già visto* ti chiede **"Ti è piaciuto?"** 👍 / 👎 e i consigli si adattano ai tuoi gusti.
 - La mia lista, Continua a guardare, voti IMDb e Rotten Tomatoes, apertura diretta nell'app giusta.
 - Saluto con il tuo nome, meteo della tua città, lingua del televisore.
 - Configurazione dal telefono con un codice QR; ogni chiave viene provata subito.
