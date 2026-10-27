@@ -1,6 +1,6 @@
 # Nottilo
 
-**A free launcher for Fire TV and Android TV.** A clean home screen with your apps, movie and series picks from the services you have, a catalog by genre, and the weather. No ads, no account, no data collected.
+**A free launcher for Fire TV and Android TV.** A clean home screen with your apps, movie and series picks from the services you have, a catalog by genre, and the weather. No ads, no sign-up, no data collected.
 
 **[⬇ Download Nottilo.apk](https://github.com/vuoshino/Nottilo/raw/main/download/Nottilo.apk)** · **[☕ Buy me a coffee](https://ko-fi.com/nottilo)** · [Italiano](#italiano)
 
@@ -28,6 +28,7 @@
 ## Install
 
 1. **Developer options:** Settings → My Fire TV → About → press OK on the device name 7 times.
+   *(Android TV: Settings → System → About → press* Build *7 times.)*
 2. In **Developer options**, turn on **ADB debugging** and allow **unknown apps** for *Downloader*.
 3. Open **Downloader** and enter:
    `https://github.com/vuoshino/Nottilo/raw/main/download/Nottilo.apk`
@@ -38,6 +39,11 @@
 6. To go back: Settings → *Home Screen* → *Original*. Nothing is uninstalled, no root needed.
 
 Updates arrive by themselves from this page: Nottilo asks before installing. Current version: see [download/latest.json](download/latest.json).
+
+## Known issues
+
+- **Fire OS 7** (older Fire TV Sticks): Amazon delays apps by a few seconds after the Home button, so Amazon's home may show briefly before Nottilo. Fire OS 8 and Android TV are not affected.
+- Languages: English and Italian are complete; in other languages some newer texts are still in English.
 
 ## Privacy
 
@@ -51,7 +57,7 @@ Nottilo is free and has no ads. If you enjoy it, **[buy me a coffee on Ko‑fi](
 
 ## Italiano
 
-**Un launcher gratuito per Fire TV e Android TV.** Una Home pulita con le tue app, consigli di film e serie dai servizi che hai, catalogo per genere e meteo. Niente pubblicità, nessun account, nessun dato raccolto.
+**Un launcher gratuito per Fire TV e Android TV.** Una Home pulita con le tue app, consigli di film e serie dai servizi che hai, catalogo per genere e meteo. Niente pubblicità, nessuna registrazione, nessun dato raccolto.
 
 **[⬇ Scarica Nottilo.apk](https://github.com/vuoshino/Nottilo/raw/main/download/Nottilo.apk)** · **[☕ Offrimi un caffè](https://ko-fi.com/nottilo)**
 
@@ -67,6 +73,8 @@ Nottilo is free and has no ads. If you enjoy it, **[buy me a coffee on Ko‑fi](
 
 **Installazione:** Opzioni sviluppatore → *Debug ADB* attivo e origini sconosciute per *Downloader* → in Downloader inserisci `https://github.com/vuoshino/Nottilo/raw/main/download/Nottilo.apk` → apri Nottilo e inquadra il QR. Per il tasto Home: Impostazioni → *Schermata Home* → *Nottilo* (su Fire TV serve un comando una volta sola, da computer o telefono: Nottilo te lo mostra già pronto).
 
+**Limiti noti:** su Fire OS 7 (Fire TV Stick più vecchie) Amazon ritarda le app di qualche secondo dopo il tasto Home, quindi può comparire per un attimo la Home di Amazon. Su Fire OS 8 e Android TV non succede.
+
 **Privacy:** chiavi, nome e città restano solo sul televisore. Nottilo non ha server e non raccoglie nulla.
 
 Se ti piace, **[offrimi un caffè su Ko‑fi](https://ko-fi.com/nottilo)** ☕
@@ -77,7 +85,7 @@ Se ti piace, **[offrimi un caffè su Ko‑fi](https://ko-fi.com/nottilo)** ☕
 
 - Built on [Free My TV](https://github.com/simbasjungles/free-my-tv) © Free My TV contributors, MIT License — see [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
 - This product uses the TMDB API but is not endorsed or certified by TMDB.
-- Scores from OMDb; streaming links from TMDB and Watchmode; weather from Open‑Meteo — each used with your own key, under its own terms.
+- Scores from OMDb; streaming links from TMDB and Watchmode (each with your own key, under its own terms); weather from Open‑Meteo.
 - QR codes: [QR Code generator](https://www.nayuki.io/page/qr-code-generator-library) by Project Nayuki (MIT). Icons: Material Symbols (Apache 2.0). Font: Inter (SIL OFL 1.1).
 - Netflix, Prime Video, Disney+, YouTube, Fire TV and other names belong to their owners. Nottilo is not affiliated with them.
 
