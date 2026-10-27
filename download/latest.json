@@ -1,6 +1,6 @@
 {
-  "versionCode": 100,
-  "versionName": "1.2",
+  "versionCode": 101,
+  "versionName": "1.2.1",
   "apk": "https://github.com/vuoshino/Nottilo/raw/main/download/Nottilo.apk",
-  "sha256": "75c579ee4ad50ae1d0523a2ba15c50792883bbb0c2c4bc381c59ae2fcb6ce967"
+  "sha256": "04de1a98bb852db88db6425805f0786a47a9559b86f2c5eef001ee0aa7a227cc"
 }
