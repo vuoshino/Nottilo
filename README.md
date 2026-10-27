@@ -7,12 +7,13 @@
 <p align="center">
   <a href="https://github.com/vuoshino/Nottilo/raw/main/download/Nottilo.apk"><img alt="Download Nottilo.apk" src="https://img.shields.io/badge/%E2%AC%87%20Download-Nottilo.apk-1f6feb?style=for-the-badge"></a>
   <a href="https://ko-fi.com/nottilo"><img alt="Support on Ko-fi" src="https://img.shields.io/badge/%E2%98%95%20Support-Ko--fi-FF5E5B?style=for-the-badge"></a>
+  <a href="https://paypal.me/costantinishipping"><img alt="Donate with PayPal" src="https://img.shields.io/badge/%F0%9F%92%B3%20Donate-PayPal-0070BA?style=for-the-badge"></a>
   <a href="https://github.com/vuoshino/Nottilo/issues/new/choose"><img alt="Suggest an idea" src="https://img.shields.io/badge/%F0%9F%92%A1%20Ideas%20%26%20bugs-Issues-2ea043?style=for-the-badge"></a>
 </p>
 
 <p align="center"><b>Fire TV: open the <i>Downloader</i> app and type <code>4702696</code></b></p>
 
-<p align="center"><b>Nottilo is free and made by one person. If you like it, <a href="https://ko-fi.com/nottilo">support it on Ko‑fi</a> ☕ — every coffee goes into new features.</b><br>
+<p align="center"><b>Nottilo is free and made by one person. If you like it, support it on <a href="https://ko-fi.com/nottilo">Ko‑fi</a> or <a href="https://paypal.me/costantinishipping">PayPal</a> ☕ — every coffee goes into new features.</b><br>
 <a href="#italiano">Italiano</a> · <a href="#contribute">How to contribute</a></p>
 
 ---
@@ -104,6 +105,7 @@ Nottilo grows with the people who use it. Three ways to help:
 | | |
 | --- | --- |
 | ☕ **[Support it on Ko‑fi](https://ko-fi.com/nottilo)** | A coffee keeps updates coming. No account needed, PayPal or card. |
+| 💳 **[Donate with PayPal](https://paypal.me/costantinishipping)** | Straight from your PayPal account. |
 | 💡 **[Suggest an idea or report a bug](https://github.com/vuoshino/Nottilo/issues/new/choose)** | Tell what you'd like or what doesn't work: every report makes it better. |
 | ⭐ **Star this page** | It helps other people find Nottilo. |
 
@@ -113,7 +115,7 @@ Nottilo grows with the people who use it. Three ways to help:
 
 **Un launcher gratuito per Fire TV e Android TV.** Una Home pulita con le tue app, consigli di film e serie dai servizi che hai, catalogo per genere e meteo. Niente pubblicità, nessuna registrazione, nessun dato raccolto.
 
-**Su Fire TV: apri Downloader e scrivi `4702696`** · **[⬇ Scarica Nottilo.apk](https://github.com/vuoshino/Nottilo/raw/main/download/Nottilo.apk)** · **[☕ Sostienilo su Ko‑fi](https://ko-fi.com/nottilo)** · **[💡 Idee e segnalazioni](https://github.com/vuoshino/Nottilo/issues/new/choose)**
+**Su Fire TV: apri Downloader e scrivi `4702696`** · **[⬇ Scarica Nottilo.apk](https://github.com/vuoshino/Nottilo/raw/main/download/Nottilo.apk)** · **[☕ Sostienilo su Ko‑fi](https://ko-fi.com/nottilo)** · **[💳 Dona con PayPal](https://paypal.me/costantinishipping)** · **[💡 Idee e segnalazioni](https://github.com/vuoshino/Nottilo/issues/new/choose)**
 
 **Cosa fa**
 - **Sostituisce la Home della Fire TV con un solo comando, da dare una volta.** Il tasto Home apre Nottilo: niente root, non si disinstalla nulla, e un'opzione riporta la Home di Amazon.
@@ -152,6 +154,7 @@ Nottilo grows with the people who use it. Three ways to help:
 
 **Contribuisci al progetto**
 - ☕ **[Sostienilo su Ko‑fi](https://ko-fi.com/nottilo)**: Nottilo è gratuito e fatto da una persona sola, ogni caffè diventa nuove funzioni. Senza account, con PayPal o carta.
+- 💳 **[Dona con PayPal](https://paypal.me/costantinishipping)**: direttamente dal tuo conto PayPal.
 - 💡 **[Proponi un'idea o segnala un problema](https://github.com/vuoshino/Nottilo/issues/new/choose)**: ogni segnalazione lo migliora.
 - ⭐ Metti una **stella** a questa pagina: aiuta altre persone a trovarlo.
 
