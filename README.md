@@ -78,7 +78,9 @@ adb shell pm grant app.nottilo.launcher android.permission.WRITE_SECURE_SETTINGS
 
 The moment the command arrives, Nottilo takes over the Home button by itself, and it stays that way after restarts and updates. Keep *ADB debugging* on. To go back: Settings → *Home Screen* → *Original*.
 
-Updates arrive by themselves from this page: Nottilo asks before installing. Current version: see [download/latest.json](download/latest.json).
+## Updating
+
+**Just press *Check for updates*:** scroll down below your apps to open the drawer, select **Check for updates** and confirm. That's all — no need to download anything again. Nottilo also checks by itself every few hours and asks before installing. Current version: see [download/latest.json](download/latest.json).
 
 ## Known issues
 
@@ -131,6 +133,8 @@ Nottilo grows with the people who use it. Three ways to help:
   Da computer con gli [Android platform-tools](https://developer.android.com/tools/releases/platform-tools), oppure da telefono Android con un'app ADB come *Remote ADB Shell* (lì scrivi solo la riga `pm grant …`). Appena il comando arriva, Nottilo prende il tasto Home da solo e lo mantiene anche dopo riavvii e aggiornamenti. Tieni attivo il *Debug ADB*.
 
 **Limiti noti:** su Fire OS 7 (Fire TV Stick più vecchie) Amazon ritarda le app di qualche secondo dopo il tasto Home, quindi può comparire per un attimo la Home di Amazon. Su Fire OS 8 e Android TV non succede.
+
+**Aggiornare:** basta premere **Cerca aggiornamenti**. Scendi sotto le tue app per aprire il cassetto, scegli *Cerca aggiornamenti* e conferma: non serve riscaricare nulla. Nottilo controlla anche da solo ogni poche ore e chiede prima di installare.
 
 **Privacy:** chiavi, nome e città restano solo sul televisore. Nottilo non ha server e non raccoglie nulla.
 
