@@ -91,7 +91,7 @@ The moment the command arrives, Nottilo takes over the Home button by itself, an
 
 ## Known issues
 
-- **Fire OS 7** (older Fire TV Sticks): Amazon delays apps by a few seconds after the Home button, so Amazon's home may show briefly before Nottilo. Fire OS 8 and Android TV are not affected.
+- **Fire OS 7** (older Fire TV Sticks): the Home button takes about a second there, because Amazon holds apps back after it. Nottilo covers that moment with its own short opening animation (moon and stars), so you don't see Amazon's home. Fire OS 8 and Android TV are instant.
 - Languages: English and Italian are complete; in other languages some newer texts are still in English.
 
 ## Privacy
@@ -146,7 +146,7 @@ Nottilo grows with the people who use it. Three ways to help:
 
 > **Cosa cambia su Android TV / Google TV: scegli tu.** Prima del cambio Nottilo mostra esattamente cosa farà e aspetta il tuo *Continua*. Per prendere il tasto Home disattiva (`pm disable-user`, non disinstalla nulla) **solo la Home e il salvaschermo originali** (e su Google TV l'app di configurazione Google, che altrimenti si riprenderebbe la Home). **Tutto il resto resta acceso**, compresi Play Giochi e YouTube Music. Spegnere le app extra del produttore (demo, canali promozionali, modalità negozio, per esempio TCL Channel) è un'**opzione a parte, disattivata di default**: Impostazioni → Impostazioni Home → *Spegni le app extra del produttore*. Play Store, servizi Google, telecomando, Bluetooth, tastiera, impostazioni, ingressi, immagine e audio sono protetti e non vengono mai toccati. Se spegnere un'app cancellerebbe le reti Wi‑Fi salvate, Nottilo si ferma prima di cambiare qualsiasi cosa. **Impostazioni → Schermata Home → Originale riporta tutto com'era.** Su Fire TV non viene spento nulla.
 
-**Limiti noti:** su Fire OS 7 (Fire TV Stick più vecchie) Amazon ritarda le app di qualche secondo dopo il tasto Home, quindi può comparire per un attimo la Home di Amazon. Su Fire OS 8 e Android TV non succede.
+**Fire OS 7:** sulle Fire TV Stick più vecchie il tasto Home richiede circa un secondo, perché Amazon trattiene le app subito dopo. Nottilo copre quell'attimo con una sua breve animazione d'apertura (luna e stelle), così la Home di Amazon non si vede. Su Fire OS 8 e Android TV è immediato.
 
 **Aggiornare:** basta premere **Cerca aggiornamenti**. Scendi sotto le tue app per aprire il cassetto, scegli *Cerca aggiornamenti* e conferma: non serve riscaricare nulla. Nottilo controlla anche da solo ogni poche ore e chiede prima di installare.
 
