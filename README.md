@@ -20,7 +20,7 @@
 - **Replaces the Fire TV home screen — with a single command, once.** The Home button opens Nottilo, no root, nothing uninstalled, and one option brings Amazon's home back. [How ↓](#make-nottilo-your-home-button)
 - **Picks for tonight** — movies and series from the streaming services available in your country, with poster, plot, length and where to watch.
 - **Tabs by mood** — Horror, Mystery, Thriller, Sci‑Fi, plus a YouTube tab with the latest videos of your channels.
-- **Catalog by genre** — every title of your services in rows. Press ≡ for *"What should I watch tonight?"*, and ≡ again for another one.
+- **Catalog by genre** — every title of your services in rows: select *Catalog ›* next to the tabs (or press ≡ on a Fire TV remote). Inside, *"What should I watch tonight?"* picks one for you (≡ on Fire TV rerolls it).
 - **Learns your taste** — hold OK on a card: *Watched* or *Add to list*. After *Watched* it asks if you liked it, and the next picks follow.
 - **My list and Continue watching.**
 - **Scores** — IMDb and Rotten Tomatoes (optional OMDb key).
@@ -97,7 +97,7 @@ Nottilo grows with the people who use it. Three ways to help:
 - **Sostituisce la Home della Fire TV con un solo comando, da dare una volta.** Il tasto Home apre Nottilo: niente root, non si disinstalla nulla, e un'opzione riporta la Home di Amazon.
 - Consigli per stasera dai servizi di streaming del tuo paese, con locandina, trama, durata e dove guardarli.
 - Schede Horror, Mistero, Thriller, Fantascienza e YouTube (gli ultimi video dei tuoi canali, anche senza chiave).
-- Catalogo per genere: premi ≡ per *"Che film ti va stasera?"*, di nuovo ≡ per un altro.
+- Catalogo per genere: premi OK su *Catalogo ›* accanto alle schede (sul telecomando Fire TV basta il tasto ≡). Dentro, *"Che film ti va stasera?"* ne sceglie uno per te (≡ su Fire TV ne propone un altro).
 - Tieni premuto OK su un consiglio: *Già visto* o *Aggiungi alla lista*. Dopo *Già visto* ti chiede se ti è piaciuto e i consigli si adattano.
 - La mia lista, Continua a guardare, voti IMDb e Rotten Tomatoes, apertura diretta nell'app giusta.
 - Saluto con il tuo nome, meteo della tua città, lingua del televisore.
