@@ -2,7 +2,7 @@
 
 **A free launcher for Fire TV and Android TV.** A clean home screen with your apps, movie and series picks from the services you have, a catalog by genre, and the weather. No ads, no account, no data collected.
 
-**[⬇ Download the latest version](https://github.com/vuoshino/Nottilo/releases/latest)** · **[☕ Buy me a coffee](https://ko-fi.com/nottilo)** · [Italiano](#italiano)
+**[⬇ Download Nottilo.apk](https://github.com/vuoshino/Nottilo/raw/main/download/Nottilo.apk)** · **[☕ Buy me a coffee](https://ko-fi.com/nottilo)** · [Italiano](#italiano)
 
 ---
 
@@ -29,14 +29,15 @@
 
 1. **Developer options:** Settings → My Fire TV → About → press OK on the device name 7 times.
 2. In **Developer options**, turn on **ADB debugging** and allow **unknown apps** for *Downloader*.
-3. Open **Downloader** and enter the link of the latest APK from [Releases](https://github.com/vuoshino/Nottilo/releases/latest).
+3. Open **Downloader** and enter:
+   `https://github.com/vuoshino/Nottilo/raw/main/download/Nottilo.apk`
 4. Open Nottilo: the welcome screen shows a **QR code**. Scan it with your phone and paste your TMDB key.
 5. **Home button:** Settings → *Home Screen* → *Nottilo*.
    - *Android TV / Google TV:* accept "Allow USB debugging?" (tick *Always allow*).
    - *Fire TV:* Amazon doesn't let apps do this by themselves, so Nottilo shows **one command** to send once from a computer (`adb`) or an Android phone (an app like *Remote ADB Shell*), with your TV's address already filled in. From then on the Home button opens Nottilo.
 6. To go back: Settings → *Home Screen* → *Original*. Nothing is uninstalled, no root needed.
 
-Updates arrive by themselves from this page: Nottilo asks before installing.
+Updates arrive by themselves from this page: Nottilo asks before installing. Current version: see [download/latest.json](download/latest.json).
 
 ## Privacy
 
@@ -52,7 +53,7 @@ Nottilo is free and has no ads. If you enjoy it, **[buy me a coffee on Ko‑fi](
 
 **Un launcher gratuito per Fire TV e Android TV.** Una Home pulita con le tue app, consigli di film e serie dai servizi che hai, catalogo per genere e meteo. Niente pubblicità, nessun account, nessun dato raccolto.
 
-**[⬇ Scarica l'ultima versione](https://github.com/vuoshino/Nottilo/releases/latest)** · **[☕ Offrimi un caffè](https://ko-fi.com/nottilo)**
+**[⬇ Scarica Nottilo.apk](https://github.com/vuoshino/Nottilo/raw/main/download/Nottilo.apk)** · **[☕ Offrimi un caffè](https://ko-fi.com/nottilo)**
 
 **Cosa fa**
 - Consigli per stasera dai servizi di streaming del tuo paese, con locandina, trama, durata e dove guardarli.
@@ -64,7 +65,7 @@ Nottilo is free and has no ads. If you enjoy it, **[buy me a coffee on Ko‑fi](
 - Configurazione dal telefono con un codice QR; ogni chiave viene provata subito.
 - Backup come file sul telefono o automatico sul tuo Google Drive.
 
-**Installazione:** Opzioni sviluppatore → *Debug ADB* attivo e origini sconosciute per *Downloader* → scarica l'APK dalle [Releases](https://github.com/vuoshino/Nottilo/releases/latest) → apri Nottilo e inquadra il QR. Per il tasto Home: Impostazioni → *Schermata Home* → *Nottilo* (su Fire TV serve un comando una volta sola, da computer o telefono: Nottilo te lo mostra già pronto).
+**Installazione:** Opzioni sviluppatore → *Debug ADB* attivo e origini sconosciute per *Downloader* → in Downloader inserisci `https://github.com/vuoshino/Nottilo/raw/main/download/Nottilo.apk` → apri Nottilo e inquadra il QR. Per il tasto Home: Impostazioni → *Schermata Home* → *Nottilo* (su Fire TV serve un comando una volta sola, da computer o telefono: Nottilo te lo mostra già pronto).
 
 **Privacy:** chiavi, nome e città restano solo sul televisore. Nottilo non ha server e non raccoglie nulla.
 
