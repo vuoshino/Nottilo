@@ -13,7 +13,7 @@
   <a href="https://github.com/vuoshino/Nottilo/issues/new/choose"><img alt="Suggest an idea" src="https://img.shields.io/badge/%F0%9F%92%A1%20Ideas%20%26%20bugs-Issues-2ea043?style=for-the-badge"></a>
 </p>
 
-<p align="center"><b>Fire TV: open the <i>Downloader</i> app and type <code>4702696</code></b></p>
+<p align="center"><b>Fire TV: open the <i>Downloader</i> app and type <code>4953459</code></b></p>
 
 <p align="center"><b>Nottilo is free and made by one person. If you like it, support it on <a href="https://ko-fi.com/nottilo">Ko‑fi</a> or <a href="https://paypal.me/costantinishipping">PayPal</a> ☕ — every coffee goes into new features.</b><br>
 <a href="#italiano">Italiano</a> · <a href="#permissions--security">Permissions &amp; security</a> · <a href="#contribute">How to contribute</a></p>
@@ -61,7 +61,7 @@
 1. **Developer options:** Settings → My Fire TV → About → press OK on the device name 7 times.
    *(Android TV: Settings → System → About → press* Build *7 times.)*
 2. In **Developer options**, turn on **ADB debugging** and allow **unknown apps** for *Downloader*.
-3. Open **Downloader** and type the code **`4702696`**
+3. Open **Downloader** and type the code **`4953459`**
    (or the full link: `https://github.com/vuoshino/Nottilo/releases/latest/download/Nottilo.apk`).
 4. Open Nottilo: the welcome screen shows a **QR code**. Scan it with your phone and paste your TMDB key.
 5. **Home button:** Settings → *Home Screen* → *Nottilo*.
@@ -156,7 +156,7 @@ Nottilo grows with the people who use it. Three ways to help:
 
 **Un launcher gratuito per Fire TV e Android TV.** Una Home pulita con le tue app, consigli di film e serie dai servizi che hai, catalogo per genere e meteo. Niente pubblicità, nessuna registrazione, nessun dato raccolto.
 
-**Su Fire TV: apri Downloader e scrivi `4702696`** · **[⬇ Scarica Nottilo.apk](https://github.com/vuoshino/Nottilo/releases/latest/download/Nottilo.apk)** · **[☕ Sostienilo su Ko‑fi](https://ko-fi.com/nottilo)** · **[💳 Dona con PayPal](https://paypal.me/costantinishipping)** · **[💡 Idee e segnalazioni](https://github.com/vuoshino/Nottilo/issues/new/choose)**
+**Su Fire TV: apri Downloader e scrivi `4953459`** · **[⬇ Scarica Nottilo.apk](https://github.com/vuoshino/Nottilo/releases/latest/download/Nottilo.apk)** · **[☕ Sostienilo su Ko‑fi](https://ko-fi.com/nottilo)** · **[💳 Dona con PayPal](https://paypal.me/costantinishipping)** · **[💡 Idee e segnalazioni](https://github.com/vuoshino/Nottilo/issues/new/choose)**
 
 **Cosa fa**
 - **Sostituisce la Home della Fire TV con un solo comando, da dare una volta.** Il tasto Home apre Nottilo: niente root, non si disinstalla nulla, e un'opzione riporta la Home di Amazon.
@@ -174,7 +174,7 @@ Nottilo grows with the people who use it. Three ways to help:
 - **Libera memoria con un tasto:** la scorciatoia *Libera memoria* chiude le app rimaste aperte in background, così la chiavetta resta veloce.
 - Backup come file sul telefono o automatico sul tuo Google Drive.
 
-**Installazione:** Opzioni sviluppatore → *Debug ADB* attivo e origini sconosciute per *Downloader* → in Downloader scrivi il codice **`4702696`** → apri Nottilo e inquadra il QR. 
+**Installazione:** Opzioni sviluppatore → *Debug ADB* attivo e origini sconosciute per *Downloader* → in Downloader scrivi il codice **`4953459`** → apri Nottilo e inquadra il QR. 
 
 **Nottilo come Home (tasto Home)**
 - *Android TV / Google TV:* Impostazioni → *Schermata Home* → *Nottilo* e accetta il debug USB. Fatto.
