@@ -2,6 +2,8 @@
 
 **A free launcher for Fire TV and Android TV.** A clean home screen with your apps, movie and series picks from the services you have, a catalog by genre, and the weather. No ads, no sign-up, no data collected.
 
+<p align="center"><img src="screenshots/home.jpg" alt="Nottilo home screen" width="100%"></p>
+
 <p align="center">
   <a href="https://github.com/vuoshino/Nottilo/raw/main/download/Nottilo.apk"><img alt="Download Nottilo.apk" src="https://img.shields.io/badge/%E2%AC%87%20Download-Nottilo.apk-1f6feb?style=for-the-badge"></a>
   <a href="https://ko-fi.com/nottilo"><img alt="Support on Ko-fi" src="https://img.shields.io/badge/%E2%98%95%20Support-Ko--fi-FF5E5B?style=for-the-badge"></a>
@@ -29,6 +31,17 @@
 - **Set up from your phone** — scan the QR code on the TV, paste your keys, done. Each key is tested on the spot (✓ / ✗).
 - **Backup** — save your list, watched titles and settings as a file on your phone, or automatically on your own Google Drive.
 - **Smooth** — 60 fps animations, made for the remote.
+
+## Screenshots
+
+| | |
+| --- | --- |
+| ![Home screen](screenshots/home.jpg) | ![Drawer with weather and shortcuts](screenshots/drawer.jpg) |
+| **Home** — picks for tonight, weather, your apps | **Drawer** — inputs, shortcuts, hourly weather |
+| ![Catalog](screenshots/catalog.jpg) | ![My list](screenshots/list.jpg) |
+| **Catalog** — scores, where to watch, watched titles | **My list** and picks based on what you liked |
+| ![What should I watch tonight?](screenshots/surprise.jpg) | ![Title page](screenshots/title.jpg) |
+| **"What should I watch tonight?"** | **Title page** — watch, trailer, another one, my list |
 
 ## Requirements
 
