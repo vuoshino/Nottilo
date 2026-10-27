@@ -30,7 +30,8 @@
 - **My list and Continue watching.**
 - **Scores** — IMDb and Rotten Tomatoes (optional OMDb key).
 - **Opens titles straight in their app** — Netflix, Prime Video, Disney+… (optional Watchmode key).
-- **Your greeting, your city's weather, your language** — the city is found from the TV's time zone; the language follows the TV.
+- **A greeting that follows your day** — *Good morning*, *Good afternoon*, *Good evening* or *Good night*, with your name.
+- **Your city's weather at a glance** — the temperature and sky now, and whether rain is coming today or in the next days (or "no rain this week"). Down in the drawer: hourly forecast, max/min, sunrise and sunset. The city is found from the TV's time zone; the language follows the TV.
 - **Set up from your phone** — scan the QR code on the TV, paste your keys, done. Each key is tested on the spot (✓ / ✗).
 - **Free memory in one press** — the *Free memory* shortcut closes the apps left running in the background, so the stick stays fast.
 - **Backup** — save your list, watched titles and settings as a file on your phone, or automatically on your own Google Drive.
@@ -122,7 +123,8 @@ Nottilo grows with the people who use it. Three ways to help:
   - **nel Catalogo**, su qualsiasi locandina: lo segna subito come *già visto* (tieni premuto di nuovo per annullare); con OK lo apri e lo aggiungi a *La mia lista*;
   - dopo *Già visto* ti chiede **"Ti è piaciuto?"** 👍 / 👎 e i consigli si adattano ai tuoi gusti.
 - La mia lista, Continua a guardare, voti IMDb e Rotten Tomatoes, apertura diretta nell'app giusta.
-- Saluto con il tuo nome, meteo della tua città, lingua del televisore.
+- **Saluto che segue la giornata:** *Buongiorno*, *Buon pomeriggio*, *Buonasera* o *Buonanotte*, con il tuo nome.
+- **Meteo della tua città a colpo d'occhio:** temperatura e cielo di adesso, e se pioverà oggi o nei prossimi giorni (oppure "niente pioggia questa settimana"). Nel cassetto: previsioni ora per ora, massima/minima, alba e tramonto. La lingua segue quella del televisore.
 - Configurazione dal telefono con un codice QR; ogni chiave viene provata subito.
 - **Libera memoria con un tasto:** la scorciatoia *Libera memoria* chiude le app rimaste aperte in background, così la chiavetta resta veloce.
 - Backup come file sul telefono o automatico sul tuo Google Drive.
