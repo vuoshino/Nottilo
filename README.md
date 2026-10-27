@@ -29,6 +29,7 @@
 - **Opens titles straight in their app** — Netflix, Prime Video, Disney+… (optional Watchmode key).
 - **Your greeting, your city's weather, your language** — the city is found from the TV's time zone; the language follows the TV.
 - **Set up from your phone** — scan the QR code on the TV, paste your keys, done. Each key is tested on the spot (✓ / ✗).
+- **Free memory in one press** — the *Free memory* shortcut closes the apps left running in the background, so the stick stays fast.
 - **Backup** — save your list, watched titles and settings as a file on your phone, or automatically on your own Google Drive.
 - **Smooth** — 60 fps animations, made for the remote.
 
@@ -37,7 +38,7 @@
 | | |
 | --- | --- |
 | ![Home screen](screenshots/home.jpg) | ![Drawer with weather and shortcuts](screenshots/drawer.jpg) |
-| **Home** — picks for tonight, weather, your apps | **Drawer** — inputs, shortcuts, hourly weather |
+| **Home** — picks for tonight, weather, your apps | **Drawer** — inputs, Free memory, updates, hourly weather |
 | ![Catalog](screenshots/catalog.jpg) | ![My list](screenshots/list.jpg) |
 | **Catalog** — scores, where to watch, watched titles | **My list** and picks based on what you liked |
 | ![What should I watch tonight?](screenshots/surprise.jpg) | ![Title page](screenshots/title.jpg) |
@@ -115,6 +116,7 @@ Nottilo grows with the people who use it. Three ways to help:
 - La mia lista, Continua a guardare, voti IMDb e Rotten Tomatoes, apertura diretta nell'app giusta.
 - Saluto con il tuo nome, meteo della tua città, lingua del televisore.
 - Configurazione dal telefono con un codice QR; ogni chiave viene provata subito.
+- **Libera memoria con un tasto:** la scorciatoia *Libera memoria* chiude le app rimaste aperte in background, così la chiavetta resta veloce.
 - Backup come file sul telefono o automatico sul tuo Google Drive.
 
 **Installazione:** Opzioni sviluppatore → *Debug ADB* attivo e origini sconosciute per *Downloader* → in Downloader scrivi il codice **`4702696`** → apri Nottilo e inquadra il QR. 
