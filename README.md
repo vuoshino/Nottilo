@@ -5,7 +5,8 @@
 <p align="center"><img src="screenshots/home.jpg" alt="Nottilo home screen" width="100%"></p>
 
 <p align="center">
-  <a href="https://github.com/vuoshino/Nottilo/raw/main/download/Nottilo.apk"><img alt="Download Nottilo.apk" src="https://img.shields.io/badge/%E2%AC%87%20Download-Nottilo.apk-1f6feb?style=for-the-badge"></a>
+  <a href="https://github.com/vuoshino/Nottilo/releases/latest/download/Nottilo.apk"><img alt="Download Nottilo.apk" src="https://img.shields.io/badge/%E2%AC%87%20Download-Nottilo.apk-1f6feb?style=for-the-badge"></a>
+  <a href="https://github.com/vuoshino/Nottilo/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/vuoshino/Nottilo/total?style=for-the-badge&label=%E2%AC%87%20downloads&color=6e40c9"></a>
   <a href="https://www.virustotal.com/gui/file/3599f8a40a99e6420f77447c989df40a7ade5bcef75768534dd49c39dd04d6ca"><img alt="VirusTotal: 0 detections" src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F%20VirusTotal-0%20detections-2ea043?style=for-the-badge"></a>
   <a href="https://ko-fi.com/nottilo"><img alt="Support on Ko-fi" src="https://img.shields.io/badge/%E2%98%95%20Support-Ko--fi-FF5E5B?style=for-the-badge"></a>
   <a href="https://paypal.me/costantinishipping"><img alt="Donate with PayPal" src="https://img.shields.io/badge/%F0%9F%92%B3%20Donate-PayPal-0070BA?style=for-the-badge"></a>
@@ -61,7 +62,7 @@
    *(Android TV: Settings → System → About → press* Build *7 times.)*
 2. In **Developer options**, turn on **ADB debugging** and allow **unknown apps** for *Downloader*.
 3. Open **Downloader** and type the code **`4702696`**
-   (or the full link: `https://github.com/vuoshino/Nottilo/raw/main/download/Nottilo.apk`).
+   (or the full link: `https://github.com/vuoshino/Nottilo/releases/latest/download/Nottilo.apk`).
 4. Open Nottilo: the welcome screen shows a **QR code**. Scan it with your phone and paste your TMDB key.
 5. **Home button:** Settings → *Home Screen* → *Nottilo*.
    - *Android TV / Google TV:* accept "Allow USB debugging?" (tick *Always allow*).
@@ -155,7 +156,7 @@ Nottilo grows with the people who use it. Three ways to help:
 
 **Un launcher gratuito per Fire TV e Android TV.** Una Home pulita con le tue app, consigli di film e serie dai servizi che hai, catalogo per genere e meteo. Niente pubblicità, nessuna registrazione, nessun dato raccolto.
 
-**Su Fire TV: apri Downloader e scrivi `4702696`** · **[⬇ Scarica Nottilo.apk](https://github.com/vuoshino/Nottilo/raw/main/download/Nottilo.apk)** · **[☕ Sostienilo su Ko‑fi](https://ko-fi.com/nottilo)** · **[💳 Dona con PayPal](https://paypal.me/costantinishipping)** · **[💡 Idee e segnalazioni](https://github.com/vuoshino/Nottilo/issues/new/choose)**
+**Su Fire TV: apri Downloader e scrivi `4702696`** · **[⬇ Scarica Nottilo.apk](https://github.com/vuoshino/Nottilo/releases/latest/download/Nottilo.apk)** · **[☕ Sostienilo su Ko‑fi](https://ko-fi.com/nottilo)** · **[💳 Dona con PayPal](https://paypal.me/costantinishipping)** · **[💡 Idee e segnalazioni](https://github.com/vuoshino/Nottilo/issues/new/choose)**
 
 **Cosa fa**
 - **Sostituisce la Home della Fire TV con un solo comando, da dare una volta.** Il tasto Home apre Nottilo: niente root, non si disinstalla nulla, e un'opzione riporta la Home di Amazon.
