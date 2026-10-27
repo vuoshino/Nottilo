@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/vuoshino/Nottilo/releases/latest/download/Nottilo.apk"><img alt="Download Nottilo.apk" src="https://img.shields.io/badge/%E2%AC%87%20Download-Nottilo.apk-1f6feb?style=for-the-badge"></a>
-  <a href="https://www.virustotal.com/gui/file/3599f8a40a99e6420f77447c989df40a7ade5bcef75768534dd49c39dd04d6ca"><img alt="VirusTotal: 0 detections" src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F%20VirusTotal-0%20detections-2ea043?style=for-the-badge"></a>
+  <a href="https://www.virustotal.com/gui/file/3aa5671656486d20658384400cd4be6e13dad12446eeb633d74a3761a2db90e7"><img alt="VirusTotal: 0 detections" src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F%20VirusTotal-0%20detections-2ea043?style=for-the-badge"></a>
   <a href="https://ko-fi.com/nottilo"><img alt="Support on Ko-fi" src="https://img.shields.io/badge/%E2%98%95%20Support-Ko--fi-FF5E5B?style=for-the-badge"></a>
   <a href="https://paypal.me/costantinishipping"><img alt="Donate with PayPal" src="https://img.shields.io/badge/%F0%9F%92%B3%20Donate-PayPal-0070BA?style=for-the-badge"></a>
   <a href="https://github.com/vuoshino/Nottilo/issues/new/choose"><img alt="Suggest an idea" src="https://img.shields.io/badge/%F0%9F%92%A1%20Ideas%20%26%20bugs-Issues-2ea043?style=for-the-badge"></a>
@@ -34,7 +34,7 @@
 - **Opens titles straight in their app** — Netflix, Prime Video, Disney+… (optional Watchmode key).
 - **A greeting that follows your day** — *Good morning*, *Good afternoon*, *Good evening* or *Good night*, with your name.
 - **Your city's weather at a glance** — the temperature and sky now, and whether rain is coming today or in the next days (or "no rain this week"). Down in the drawer: hourly forecast, max/min, sunrise and sunset. The city is found from the TV's time zone; the language follows the TV.
-- **Set up from your phone** — scan the QR code on the TV, paste your keys, done. Each key is tested on the spot (✓ / ✗).
+- **Works right away** — no account and no key needed: TMDB is built in. Optional keys (scores, direct links, YouTube search) are added from your phone by scanning a QR code, and each one is tested on the spot (✓ / ✗).
 - **Free memory in one press** — the *Free memory* shortcut closes the apps left running in the background, so the stick stays fast.
 - **Backup** — save your list, watched titles and settings as a file on your phone, or automatically on your own Google Drive.
 - **Smooth** — 60 fps animations, made for the remote.
@@ -53,7 +53,7 @@
 ## Requirements
 
 - Amazon Fire TV Stick / Cube (Fire OS 7 or 8), or an Android TV / Google TV with Android 8 or newer.
-- A free [TMDB](https://www.themoviedb.org/signup) account for the API key (5 minutes; the app walks you through it).
+- Nothing else: no account and no key needed. Optional free keys — [OMDb](https://www.omdbapi.com/apikey.aspx) (IMDb and Rotten Tomatoes scores), [Watchmode](https://api.watchmode.com/) (direct links), YouTube (search) — add extras.
 
 ## Install
 
@@ -62,7 +62,7 @@
 2. In **Developer options**, turn on **ADB debugging** and allow **unknown apps** for *Downloader*.
 3. Open **Downloader** and type the code **`4953459`**
    (or the full link: `https://github.com/vuoshino/Nottilo/releases/latest/download/Nottilo.apk`).
-4. Open Nottilo: the welcome screen shows a **QR code**. Scan it with your phone and paste your TMDB key.
+4. Open Nottilo: it's ready, no setup needed. *Optional:* Settings → *Keys and accounts* → scan the **QR code** with your phone to add your name, city or extra keys.
 5. **Home button:** Settings → *Home Screen* → *Nottilo*.
    - *Android TV / Google TV:* accept "Allow USB debugging?" (tick *Always allow*).
    - *Fire TV:* Amazon doesn't let apps do this by themselves, so Nottilo shows **one command** to send once from a computer (`adb`) or an Android phone (an app like *Remote ADB Shell*), with your TV's address already filled in. From then on the Home button opens Nottilo.
@@ -97,7 +97,7 @@ The moment the command arrives, Nottilo takes over the Home button by itself, an
 
 ## Privacy
 
-Your keys, name and city stay **on your TV only**. Nottilo has no server and collects nothing. It talks only to the services you give a key to (TMDB, OMDb, Watchmode, YouTube), to Open‑Meteo for the weather, and to GitHub for updates.
+Your keys, name and city stay **on your TV only**. Nottilo has no server and collects nothing. It talks only to TMDB for film data (with Nottilo's built-in key, or yours), to the services you add a key for (OMDb, Watchmode, YouTube), to Open‑Meteo for the weather, and to GitHub for updates.
 
 ## Permissions & security
 
@@ -121,7 +121,8 @@ Nottilo's own source code isn't public yet (it's built on the open‑source [Fre
 
 **Where it connects — and nowhere else**
 
-- TMDB, OMDb, Watchmode, YouTube — with your own keys
+- TMDB — film data and posters (Nottilo's built-in key, or your own)
+- OMDb, Watchmode, YouTube — only if you add your own keys
 - Open‑Meteo — the weather for your city
 - GitHub — to check for updates
 - Google — only if you set up the optional backup, and only to your own Drive
@@ -130,9 +131,9 @@ No ads, no analytics, no trackers, no accounts, no Nottilo server.
 
 **Check the APK yourself**
 
-- 🛡️ **[VirusTotal scan of the current APK](https://www.virustotal.com/gui/file/3599f8a40a99e6420f77447c989df40a7ade5bcef75768534dd49c39dd04d6ca)** — **0 detections** out of about 70 antivirus engines.
-- **SHA‑256 of Nottilo 1.2.2:**
-  `3599f8a40a99e6420f77447c989df40a7ade5bcef75768534dd49c39dd04d6ca`  
+- 🛡️ **[VirusTotal scan of the current APK](https://www.virustotal.com/gui/file/3aa5671656486d20658384400cd4be6e13dad12446eeb633d74a3761a2db90e7)** — **0 detections** out of about 70 antivirus engines.
+- **SHA‑256 of Nottilo 1.2.3:**
+  `3aa5671656486d20658384400cd4be6e13dad12446eeb633d74a3761a2db90e7`  
   Check it with `certutil -hashfile Nottilo.apk SHA256` (Windows) or `shasum -a 256 Nottilo.apk` (Mac, Linux). Each version's value is also in [download/latest.json](download/latest.json).
 - **Signing certificate (SHA‑256):**
   `26ed25a1fc9e32bf362c3f0d7b20c77cb24594d9b5a2f610a6de8a8375954eba`  
@@ -173,7 +174,7 @@ Nottilo grows with the people who use it. Three ways to help:
 - **Libera memoria con un tasto:** la scorciatoia *Libera memoria* chiude le app rimaste aperte in background, così la chiavetta resta veloce.
 - Backup come file sul telefono o automatico sul tuo Google Drive.
 
-**Installazione:** Opzioni sviluppatore → *Debug ADB* attivo e origini sconosciute per *Downloader* → in Downloader scrivi il codice **`4953459`** → apri Nottilo e inquadra il QR. 
+**Installazione:** Opzioni sviluppatore → *Debug ADB* attivo e origini sconosciute per *Downloader* → in Downloader scrivi il codice **`4953459`** → apri Nottilo: funziona subito, senza account né chiavi. Le chiavi facoltative (voti IMDb e Rotten Tomatoes, link diretti, ricerca YouTube) si aggiungono dal telefono in Impostazioni → *Chiavi e account*. 
 
 **Nottilo come Home (tasto Home)**
 - *Android TV / Google TV:* Impostazioni → *Schermata Home* → *Nottilo* e accetta il debug USB. Fatto.
@@ -192,7 +193,7 @@ Nottilo grows with the people who use it. Three ways to help:
 
 **Privacy:** chiavi, nome e città restano solo sul televisore. Nottilo non ha server e non raccoglie nulla.
 
-**Permessi e sicurezza:** il codice di Nottilo non è ancora pubblico (nasce dal progetto open source Free My TV), quindi qui sopra, in [Permissions & security](#permissions--security), c'è l'elenco di ogni permesso e del perché serve. In breve: niente pubblicità, statistiche o tracciamento. Si collega solo a TMDB, OMDb, Watchmode e YouTube (con le tue chiavi), Open‑Meteo per il meteo, GitHub per gli aggiornamenti e, se lo attivi, al tuo Google Drive per il backup. Il servizio di accessibilità su Fire TV vede solo quando compare la home di Amazon: non legge lo schermo, i testi o i tasti. Puoi controllare l'APK su **[VirusTotal](https://www.virustotal.com/gui/file/3599f8a40a99e6420f77447c989df40a7ade5bcef75768534dd49c39dd04d6ca)** e confrontarne l'impronta SHA‑256 con quella indicata sopra.
+**Permessi e sicurezza:** il codice di Nottilo non è ancora pubblico (nasce dal progetto open source Free My TV), quindi qui sopra, in [Permissions & security](#permissions--security), c'è l'elenco di ogni permesso e del perché serve. In breve: niente pubblicità, statistiche o tracciamento. Si collega solo a TMDB (con la chiave integrata in Nottilo o la tua), a OMDb, Watchmode e YouTube se aggiungi le tue chiavi, Open‑Meteo per il meteo, GitHub per gli aggiornamenti e, se lo attivi, al tuo Google Drive per il backup. Il servizio di accessibilità su Fire TV vede solo quando compare la home di Amazon: non legge lo schermo, i testi o i tasti. Puoi controllare l'APK su **[VirusTotal](https://www.virustotal.com/gui/file/3aa5671656486d20658384400cd4be6e13dad12446eeb633d74a3761a2db90e7)** e confrontarne l'impronta SHA‑256 con quella indicata sopra.
 
 **Contribuisci al progetto**
 - ☕ **[Sostienilo su Ko‑fi](https://ko-fi.com/nottilo)**: Nottilo è gratuito e fatto da una persona sola, ogni caffè diventa nuove funzioni. Senza account, con PayPal o carta.
@@ -206,7 +207,7 @@ Nottilo grows with the people who use it. Three ways to help:
 
 - Built on [Free My TV](https://github.com/simbasjungles/free-my-tv) © Free My TV contributors, MIT License — see [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
 - This product uses the TMDB API but is not endorsed or certified by TMDB.
-- Scores from OMDb; streaming links from TMDB and Watchmode (each with your own key, under its own terms); weather from Open‑Meteo.
+- Scores from OMDb; streaming links from TMDB and Watchmode (TMDB with Nottilo's built-in key or yours, the others with your own key, each under its own terms); weather from Open‑Meteo.
 - QR codes: [QR Code generator](https://www.nayuki.io/page/qr-code-generator-library) by Project Nayuki (MIT). Icons: Material Symbols (Apache 2.0). Font: Inter (SIL OFL 1.1).
 - Netflix, Prime Video, Disney+, YouTube, Fire TV and other names belong to their owners. Nottilo is not affiliated with them.
 
