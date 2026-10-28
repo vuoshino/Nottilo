@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/vuoshino/Nottilo/releases/latest/download/Nottilo.apk"><img alt="Download Nottilo.apk" src="https://img.shields.io/badge/%E2%AC%87%20Download-Nottilo.apk-1f6feb?style=for-the-badge"></a>
-  <a href="https://www.virustotal.com/gui/file/f54815dab4622e249bd93f3384e088c98f2ac634479cca7dc627ca2060e81b9b"><img alt="VirusTotal: 0 detections" src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F%20VirusTotal-0%20detections-2ea043?style=for-the-badge"></a>
+  <a href="https://www.virustotal.com/gui/file/10f7a54ae81edb5f57598a1471a07cc59b8fca19f383a5f478782d71d0a23f74"><img alt="VirusTotal: 0 detections" src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F%20VirusTotal-0%20detections-2ea043?style=for-the-badge"></a>
   <a href="https://ko-fi.com/nottilo"><img alt="Support on Ko-fi" src="https://img.shields.io/badge/%E2%98%95%20Support-Ko--fi-FF5E5B?style=for-the-badge"></a>
   <a href="https://paypal.me/costantinishipping"><img alt="Donate with PayPal" src="https://img.shields.io/badge/%F0%9F%92%B3%20Donate-PayPal-0070BA?style=for-the-badge"></a>
   <a href="https://github.com/vuoshino/Nottilo/issues/new/choose"><img alt="Suggest an idea" src="https://img.shields.io/badge/%F0%9F%92%A1%20Ideas%20%26%20bugs-Issues-2ea043?style=for-the-badge"></a>
@@ -26,10 +26,10 @@
 - **Tabs by mood** — Horror, Mystery, Thriller, Sci‑Fi, plus a YouTube tab with the latest videos of your channels.
 - **Catalog by genre** — every title of your services in rows: select *Catalog ›* next to the tabs (or press ≡ on a Fire TV remote). Inside, *"What should I watch tonight?"* picks one for you (≡ on Fire TV rerolls it).
 - **Hold OK to mark, rate and save** — learns your taste:
-  - **On the home screen:** hold OK on a pick → a menu with *Watched* or *Add to list*.
-  - **In the catalog:** hold OK on any poster → it's marked *watched* at once (hold again to undo). Press OK to open it and add it to *My list*.
+  - **On the home screen and in the catalog:** hold OK on a poster → a menu with *Watched* or *Add to list* (on a watched one: *Mark as not watched*).
   - After *Watched* it asks **"Did you like it?"** 👍 / 👎, and the next picks follow your answer.
-- **My list and Continue watching.**
+- **My list and Continue watching** — with a blue **New episode** badge on the shows you follow when an episode comes out.
+- **New on your services** — the latest titles on the apps you have, right under the Top 10 in the catalog.
 - **Scores** — IMDb and Rotten Tomatoes (optional OMDb key).
 - **Opens titles straight in their app** — Netflix, Prime Video, Disney+… (optional Watchmode key).
 - **A greeting that follows your day** — *Good morning*, *Good afternoon*, *Good evening* or *Good night*, with your name.
@@ -38,6 +38,7 @@
 - **Free memory in one press** — the *Free memory* shortcut closes the apps left running in the background, so the stick stays fast.
 - **Backup** — save your list, watched titles and settings as a file on your phone, or automatically on your own Google Drive.
 - **Smooth** — 60 fps animations, made for the remote.
+- **Quick guide** — a short tour on first start, and anytime in Settings → *Quick guide*.
 
 ## Screenshots
 
@@ -131,9 +132,9 @@ No ads, no analytics, no trackers, no accounts, no Nottilo server.
 
 **Check the APK yourself**
 
-- 🛡️ **[VirusTotal scan of the current APK](https://www.virustotal.com/gui/file/f54815dab4622e249bd93f3384e088c98f2ac634479cca7dc627ca2060e81b9b)** — **0 detections** out of about 70 antivirus engines.
-- **SHA‑256 of Nottilo 1.2.5:**
-  `f54815dab4622e249bd93f3384e088c98f2ac634479cca7dc627ca2060e81b9b`  
+- 🛡️ **[VirusTotal scan of the current APK](https://www.virustotal.com/gui/file/10f7a54ae81edb5f57598a1471a07cc59b8fca19f383a5f478782d71d0a23f74)** — **0 detections** out of about 70 antivirus engines.
+- **SHA‑256 of Nottilo 1.2.6:**
+  `10f7a54ae81edb5f57598a1471a07cc59b8fca19f383a5f478782d71d0a23f74`  
   Check it with `certutil -hashfile Nottilo.apk SHA256` (Windows) or `shasum -a 256 Nottilo.apk` (Mac, Linux). Each version's value is also in [download/latest.json](download/latest.json).
 - **Signing certificate (SHA‑256):**
   `26ed25a1fc9e32bf362c3f0d7b20c77cb24594d9b5a2f610a6de8a8375954eba`  
@@ -164,10 +165,12 @@ Nottilo grows with the people who use it. Three ways to help:
 - Schede Horror, Mistero, Thriller, Fantascienza e YouTube (gli ultimi video dei tuoi canali, anche senza chiave).
 - Catalogo per genere: premi OK su *Catalogo ›* accanto alle schede (sul telecomando Fire TV basta il tasto ≡). Dentro, *"Che film ti va stasera?"* ne sceglie uno per te (≡ su Fire TV ne propone un altro).
 - **Tieni premuto OK per segnare, votare e salvare:**
-  - **in Home**, su un consiglio: menu con *Già visto* o *Aggiungi alla lista*;
-  - **nel Catalogo**, su qualsiasi locandina: lo segna subito come *già visto* (tieni premuto di nuovo per annullare); con OK lo apri e lo aggiungi a *La mia lista*;
+  - **in Home e nel Catalogo**, su una locandina: menu con *Già visto* o *Aggiungi alla lista* (se è già visto: *Segna come non visto*);
   - dopo *Già visto* ti chiede **"Ti è piaciuto?"** 👍 / 👎 e i consigli si adattano ai tuoi gusti.
 - La mia lista, Continua a guardare, voti IMDb e Rotten Tomatoes, apertura diretta nell'app giusta.
+- **Nuovo episodio:** etichetta blu sulle serie della tua lista quando esce una puntata.
+- **Nuovi sui tuoi servizi:** le ultime uscite sulle app che hai, subito sotto la Top 10 nel catalogo.
+- **Guida rapida** al primo avvio, e quando vuoi in Impostazioni → *Guida rapida*.
 - **Saluto che segue la giornata:** *Buongiorno*, *Buon pomeriggio*, *Buonasera* o *Buonanotte*, con il tuo nome.
 - **Meteo della tua città a colpo d'occhio:** temperatura e cielo di adesso, e se pioverà oggi o nei prossimi giorni (oppure "niente pioggia questa settimana"). Nel cassetto: previsioni ora per ora, massima/minima, alba e tramonto. La lingua segue quella del televisore.
 - Configurazione dal telefono con un codice QR; ogni chiave viene provata subito.
@@ -193,7 +196,7 @@ Nottilo grows with the people who use it. Three ways to help:
 
 **Privacy:** chiavi, nome e città restano solo sul televisore. Nottilo non ha server e non raccoglie nulla.
 
-**Permessi e sicurezza:** il codice di Nottilo non è ancora pubblico (nasce dal progetto open source Free My TV), quindi qui sopra, in [Permissions & security](#permissions--security), c'è l'elenco di ogni permesso e del perché serve. In breve: niente pubblicità, statistiche o tracciamento. Si collega solo a TMDB (con la chiave integrata in Nottilo o la tua), a OMDb, Watchmode e YouTube se aggiungi le tue chiavi, Open‑Meteo per il meteo, GitHub per gli aggiornamenti e, se lo attivi, al tuo Google Drive per il backup. Il servizio di accessibilità su Fire TV vede solo quando compare la home di Amazon: non legge lo schermo, i testi o i tasti. Puoi controllare l'APK su **[VirusTotal](https://www.virustotal.com/gui/file/f54815dab4622e249bd93f3384e088c98f2ac634479cca7dc627ca2060e81b9b)** e confrontarne l'impronta SHA‑256 con quella indicata sopra.
+**Permessi e sicurezza:** il codice di Nottilo non è ancora pubblico (nasce dal progetto open source Free My TV), quindi qui sopra, in [Permissions & security](#permissions--security), c'è l'elenco di ogni permesso e del perché serve. In breve: niente pubblicità, statistiche o tracciamento. Si collega solo a TMDB (con la chiave integrata in Nottilo o la tua), a OMDb, Watchmode e YouTube se aggiungi le tue chiavi, Open‑Meteo per il meteo, GitHub per gli aggiornamenti e, se lo attivi, al tuo Google Drive per il backup. Il servizio di accessibilità su Fire TV vede solo quando compare la home di Amazon: non legge lo schermo, i testi o i tasti. Puoi controllare l'APK su **[VirusTotal](https://www.virustotal.com/gui/file/10f7a54ae81edb5f57598a1471a07cc59b8fca19f383a5f478782d71d0a23f74)** e confrontarne l'impronta SHA‑256 con quella indicata sopra.
 
 **Contribuisci al progetto**
 - ☕ **[Sostienilo su Ko‑fi](https://ko-fi.com/nottilo)**: Nottilo è gratuito e fatto da una persona sola, ogni caffè diventa nuove funzioni. Senza account, con PayPal o carta.
