@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/vuoshino/Nottilo/releases/latest/download/Nottilo.apk"><img alt="Download Nottilo.apk" src="https://img.shields.io/badge/%E2%AC%87%20Download-Nottilo.apk-1f6feb?style=for-the-badge"></a>
   <a href="https://github.com/vuoshino/Nottilo/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/vuoshino/Nottilo/total?style=for-the-badge&label=%E2%AC%87%20downloads&color=6e40c9&cacheSeconds=3600"></a>
-  <a href="https://www.virustotal.com/gui/file/881396828336c6781f560dc31e72680acb8349321a39e3f32206dd991b92bdc8"><img alt="VirusTotal: 0 detections" src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F%20VirusTotal-0%20detections-2ea043?style=for-the-badge"></a>
+  <a href="https://www.virustotal.com/gui/file/e51e95eac4a28278daef016a18601f26ba383352a8b35af8c6adc685f38d0cfb"><img alt="VirusTotal: 0 detections" src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F%20VirusTotal-0%20detections-2ea043?style=for-the-badge"></a>
   <a href="https://ko-fi.com/nottilo"><img alt="Support on Ko-fi" src="https://img.shields.io/badge/%E2%98%95%20Support-Ko--fi-FF5E5B?style=for-the-badge"></a>
   <a href="https://paypal.me/costantinishipping"><img alt="Donate with PayPal" src="https://img.shields.io/badge/%F0%9F%92%B3%20Donate-PayPal-0070BA?style=for-the-badge"></a>
   <a href="https://github.com/vuoshino/Nottilo/issues/new/choose"><img alt="Suggest an idea" src="https://img.shields.io/badge/%F0%9F%92%A1%20Ideas%20%26%20bugs-Issues-2ea043?style=for-the-badge"></a>
@@ -34,7 +34,7 @@
 - **My list and Continue watching** — with a blue **New episode** badge on the shows you follow when an episode comes out.
 - **New on your services** — the latest well-rated titles on the apps you have, in the catalog.
 - **Scores** — IMDb and Rotten Tomatoes (optional OMDb key).
-- **Opens titles straight in their app** — Netflix, Prime Video, Disney+… (optional Watchmode key).
+- **Opens titles straight in their app** — on their own page in Netflix, Prime Video, Disney+ and Apple TV, with no key (from Wikidata's open data, when the title is recorded there); otherwise the app's search for it. An optional Watchmode key covers even more titles and services.
 - **A greeting that follows your day** — *Good morning*, *Good afternoon*, *Good evening* or *Good night*, with your name.
 - **Clock and weather at a glance** — the time and date, the temperature and sky now, and whether rain is coming today or in the next days (or "no rain this week"). Down in the drawer: hourly forecast, max/min, sunrise and sunset. The city is found from the TV's time zone; the language follows the TV.
 - **Works right away** — no account and no key needed: TMDB is built in. Optional keys (scores, direct links, YouTube search) are added from your phone by scanning a QR code, and each one is tested on the spot (✓ / ✗).
@@ -102,7 +102,7 @@ The moment the command arrives, Nottilo takes over the Home button by itself, an
 
 ## Privacy
 
-Your keys, name and city stay **on your TV only**. Nottilo has no server and collects nothing. It talks only to TMDB for film data (with Nottilo's built-in key, or yours), to the services you add a key for (OMDb, Watchmode, YouTube), to Open‑Meteo for the weather, and to GitHub for updates.
+Your keys, name and city stay **on your TV only**. Nottilo has no server and collects nothing. It talks only to TMDB for film data (with Nottilo's built-in key, or yours), to the services you add a key for (OMDb, Watchmode, YouTube), to Open‑Meteo for the weather, to Wikidata to find a title's page on its service (only the film's TMDB number is sent), and to GitHub for updates.
 
 ## Permissions & security
 
@@ -132,6 +132,7 @@ Nottilo's own source code isn't public yet (it's built on the open‑source [Fre
 - TMDB — film data and posters (Nottilo's built-in key, or your own)
 - OMDb, Watchmode, YouTube — only if you add your own keys
 - Open‑Meteo — the weather for your city
+- Wikidata — only when you open a film or show: its TMDB number, to find its page on Netflix, Prime Video, Disney+ or Apple TV (open data, no account)
 - GitHub — to check for updates
 - Google — only if you set up the optional backup, and only to your own Drive
 
@@ -139,9 +140,9 @@ No ads, no analytics, no trackers, no accounts, no Nottilo server.
 
 **Check the APK yourself**
 
-- 🛡️ **[VirusTotal scan of the current APK](https://www.virustotal.com/gui/file/881396828336c6781f560dc31e72680acb8349321a39e3f32206dd991b92bdc8)** — **0 detections** out of about 70 antivirus engines.
-- **SHA‑256 of Nottilo 1.3.1:**
-  `881396828336c6781f560dc31e72680acb8349321a39e3f32206dd991b92bdc8`  
+- 🛡️ **[VirusTotal scan of the current APK](https://www.virustotal.com/gui/file/e51e95eac4a28278daef016a18601f26ba383352a8b35af8c6adc685f38d0cfb)** — **0 detections** out of about 70 antivirus engines.
+- **SHA‑256 of Nottilo 1.3.2:**
+  `e51e95eac4a28278daef016a18601f26ba383352a8b35af8c6adc685f38d0cfb`  
   Check it with `certutil -hashfile Nottilo.apk SHA256` (Windows) or `shasum -a 256 Nottilo.apk` (Mac, Linux). Each version's value is also in [download/latest.json](download/latest.json).
 - **Signing certificate (SHA‑256):**
   `26ed25a1fc9e32bf362c3f0d7b20c77cb24594d9b5a2f610a6de8a8375954eba`  
@@ -175,7 +176,8 @@ Nottilo grows with the people who use it. Three ways to help:
   - **in Home e nel Catalogo**, su una locandina: menu con *Già visto* o *Aggiungi alla lista* (se è già visto: *Segna come non visto*);
   - dopo *Già visto* ti chiede **"Ti è piaciuto?"** 👍 / 👎 e i consigli si adattano ai tuoi gusti.
 - **Tieni premuto OK su un'app:** spostala, chiudila, guarda le sue info o disinstallala (Android chiede conferma; le app della TV restano). **Nascondi app**, nel cassetto in basso, toglie da Tutte le app quelle che non usi mai; tornano da *App nascoste* in fondo all'elenco.
-- La mia lista, Continua a guardare, voti IMDb e Rotten Tomatoes, apertura diretta nell'app giusta.
+- La mia lista, Continua a guardare, voti IMDb e Rotten Tomatoes.
+- **Apertura diretta del film:** sulla sua pagina in Netflix, Prime Video, Disney+ e Apple TV anche senza chiavi (dai dati aperti di Wikidata, quando il titolo è registrato), altrimenti con la ricerca dell'app. La chiave facoltativa Watchmode copre ancora più titoli e servizi.
 - **Nuovo episodio:** etichetta blu sulle serie della tua lista quando esce una puntata.
 - **Nuovi sui tuoi servizi:** le ultime uscite ben votate sulle app che hai, nel catalogo.
 - **I più bei film:** nel catalogo una riga di grandi titoli amatissimi, più *Perché ti è piaciuto*, i generi in ordine di gusto, *Gemme nascoste*, *Sotto i 100 minuti* e altro. Le righe si rinnovano con altri bei titoli ogni mezza giornata; *La mia lista* e *Già visti* sono pulsanti in alto.
@@ -206,7 +208,7 @@ Nottilo grows with the people who use it. Three ways to help:
 
 **Privacy:** chiavi, nome e città restano solo sul televisore. Nottilo non ha server e non raccoglie nulla.
 
-**Permessi e sicurezza:** il codice di Nottilo non è ancora pubblico (nasce dal progetto open source Free My TV), quindi qui sopra, in [Permissions & security](#permissions--security), c'è l'elenco di ogni permesso e del perché serve. In breve: niente pubblicità, statistiche o tracciamento. Si collega solo a TMDB (con la chiave integrata in Nottilo o la tua), a OMDb, Watchmode e YouTube se aggiungi le tue chiavi, Open‑Meteo per il meteo, GitHub per gli aggiornamenti e, se lo attivi, al tuo Google Drive per il backup. Il servizio di accessibilità vede solo quando compare la Home di Amazon (Fire TV) o della TV (Android TV): non legge lo schermo, i testi o i tasti. Puoi controllare l'APK su **[VirusTotal](https://www.virustotal.com/gui/file/881396828336c6781f560dc31e72680acb8349321a39e3f32206dd991b92bdc8)** e confrontarne l'impronta SHA‑256 con quella indicata sopra.
+**Permessi e sicurezza:** il codice di Nottilo non è ancora pubblico (nasce dal progetto open source Free My TV), quindi qui sopra, in [Permissions & security](#permissions--security), c'è l'elenco di ogni permesso e del perché serve. In breve: niente pubblicità, statistiche o tracciamento. Si collega solo a TMDB (con la chiave integrata in Nottilo o la tua), a OMDb, Watchmode e YouTube se aggiungi le tue chiavi, Open‑Meteo per il meteo, Wikidata quando apri un film (riceve solo il suo numero TMDB, per trovarne la pagina sul servizio), GitHub per gli aggiornamenti e, se lo attivi, al tuo Google Drive per il backup. Il servizio di accessibilità vede solo quando compare la Home di Amazon (Fire TV) o della TV (Android TV): non legge lo schermo, i testi o i tasti. Puoi controllare l'APK su **[VirusTotal](https://www.virustotal.com/gui/file/e51e95eac4a28278daef016a18601f26ba383352a8b35af8c6adc685f38d0cfb)** e confrontarne l'impronta SHA‑256 con quella indicata sopra.
 
 **Contribuisci al progetto**
 - ☕ **[Sostienilo su Ko‑fi](https://ko-fi.com/nottilo)**: Nottilo è gratuito e fatto da una persona sola, ogni caffè diventa nuove funzioni. Senza account, con PayPal o carta.
