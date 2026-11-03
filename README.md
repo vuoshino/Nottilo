@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/vuoshino/Nottilo/releases/latest/download/Nottilo.apk"><img alt="Download Nottilo.apk" src="https://img.shields.io/badge/%E2%AC%87%20Download-Nottilo.apk-1f6feb?style=for-the-badge"></a>
   <a href="https://github.com/vuoshino/Nottilo/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/vuoshino/Nottilo/total?style=for-the-badge&label=%E2%AC%87%20downloads&color=6e40c9&cacheSeconds=3600"></a>
-  <a href="https://www.virustotal.com/gui/file/4f7705540ffed6a0aff9273c69c4599b02348699d1e0c2c7b8ef0edb89ece925"><img alt="VirusTotal: 0 detections" src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F%20VirusTotal-0%20detections-2ea043?style=for-the-badge"></a>
+  <a href="https://www.virustotal.com/gui/file/881396828336c6781f560dc31e72680acb8349321a39e3f32206dd991b92bdc8"><img alt="VirusTotal: 0 detections" src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F%20VirusTotal-0%20detections-2ea043?style=for-the-badge"></a>
   <a href="https://ko-fi.com/nottilo"><img alt="Support on Ko-fi" src="https://img.shields.io/badge/%E2%98%95%20Support-Ko--fi-FF5E5B?style=for-the-badge"></a>
   <a href="https://paypal.me/costantinishipping"><img alt="Donate with PayPal" src="https://img.shields.io/badge/%F0%9F%92%B3%20Donate-PayPal-0070BA?style=for-the-badge"></a>
   <a href="https://github.com/vuoshino/Nottilo/issues/new/choose"><img alt="Suggest an idea" src="https://img.shields.io/badge/%F0%9F%92%A1%20Ideas%20%26%20bugs-Issues-2ea043?style=for-the-badge"></a>
@@ -30,6 +30,7 @@
 - **Hold OK to mark, rate and save** — learns your taste:
   - **On the home screen and in the catalog:** hold OK on a poster → a menu with *Watched* or *Add to list* (on a watched one: *Mark as not watched*).
   - After *Watched* it asks **"Did you like it?"** 👍 / 👎, and the next picks follow your answer.
+- **Hold OK on an app** — move it, close it, see its info or uninstall it (Android asks to confirm; the TV's own apps stay). **Hide apps**, in the bottom drawer, keeps the ones you never use out of All Apps; they come back from *Hidden apps* at the end of the list.
 - **My list and Continue watching** — with a blue **New episode** badge on the shows you follow when an episode comes out.
 - **New on your services** — the latest well-rated titles on the apps you have, in the catalog.
 - **Scores** — IMDb and Rotten Tomatoes (optional OMDb key).
@@ -113,7 +114,8 @@ Nottilo's own source code isn't public yet (it's built on the open‑source [Fre
 | --- | --- |
 | Internet, network state | Posters, scores, trailers, weather, update check. |
 | Start at boot | Coming back as your home screen after a restart. |
-| Close background apps | The **Free memory** button. |
+| Close background apps | The **Free memory** button, and **Close app** in an app's menu. |
+| Request to uninstall apps | **Uninstall** in an app's menu: it only opens Android's own *Uninstall?* question, and nothing goes without your OK there. The TV's own apps can't be uninstalled from Nottilo. |
 | Read TV channels | The Live TV row, on TVs that have channels. |
 | Install apps | Installing a Nottilo update — only after you confirm it. |
 | Write secure settings | Granted **only if you run the adb command yourself**. Lets Nottilo keep its Home‑button service switched on after updates and restarts. Nothing else. |
@@ -122,6 +124,7 @@ Nottilo's own source code isn't public yet (it's built on the open‑source [Fre
 | Accessibility: *Remote buttons* (optional, off by default) | If you turn it on: reads the remote's buttons to open the apps you chose. No screen content, no text. |
 
 - **Android TV:** when *you* choose to make Nottilo your home, it uses the TV's own debugging connection (on the TV itself, never over the internet) to turn on its Home button service and its screensaver — after asking. No app of the TV is turned off.
+- **Close app:** if the TV already allows Nottilo's debugging connection (Android TV, after the Home button setup), *Close app* uses it for a real force stop of that one app; otherwise Android just ends the app's background processes. Nottilo never asks for debugging just to close an app.
 - **Phone setup:** while the *Keys* screen is open, the TV shows a small page on your Wi‑Fi, protected by a PIN inside the QR code. It stops as soon as you leave that screen.
 
 **Where it connects — and nowhere else**
@@ -136,9 +139,9 @@ No ads, no analytics, no trackers, no accounts, no Nottilo server.
 
 **Check the APK yourself**
 
-- 🛡️ **[VirusTotal scan of the current APK](https://www.virustotal.com/gui/file/4f7705540ffed6a0aff9273c69c4599b02348699d1e0c2c7b8ef0edb89ece925)** — **0 detections** out of about 70 antivirus engines.
-- **SHA‑256 of Nottilo 1.3.0:**
-  `4f7705540ffed6a0aff9273c69c4599b02348699d1e0c2c7b8ef0edb89ece925`  
+- 🛡️ **[VirusTotal scan of the current APK](https://www.virustotal.com/gui/file/881396828336c6781f560dc31e72680acb8349321a39e3f32206dd991b92bdc8)** — **0 detections** out of about 70 antivirus engines.
+- **SHA‑256 of Nottilo 1.3.1:**
+  `881396828336c6781f560dc31e72680acb8349321a39e3f32206dd991b92bdc8`  
   Check it with `certutil -hashfile Nottilo.apk SHA256` (Windows) or `shasum -a 256 Nottilo.apk` (Mac, Linux). Each version's value is also in [download/latest.json](download/latest.json).
 - **Signing certificate (SHA‑256):**
   `26ed25a1fc9e32bf362c3f0d7b20c77cb24594d9b5a2f610a6de8a8375954eba`  
@@ -171,6 +174,7 @@ Nottilo grows with the people who use it. Three ways to help:
 - **Tieni premuto OK per segnare, votare e salvare:**
   - **in Home e nel Catalogo**, su una locandina: menu con *Già visto* o *Aggiungi alla lista* (se è già visto: *Segna come non visto*);
   - dopo *Già visto* ti chiede **"Ti è piaciuto?"** 👍 / 👎 e i consigli si adattano ai tuoi gusti.
+- **Tieni premuto OK su un'app:** spostala, chiudila, guarda le sue info o disinstallala (Android chiede conferma; le app della TV restano). **Nascondi app**, nel cassetto in basso, toglie da Tutte le app quelle che non usi mai; tornano da *App nascoste* in fondo all'elenco.
 - La mia lista, Continua a guardare, voti IMDb e Rotten Tomatoes, apertura diretta nell'app giusta.
 - **Nuovo episodio:** etichetta blu sulle serie della tua lista quando esce una puntata.
 - **Nuovi sui tuoi servizi:** le ultime uscite ben votate sulle app che hai, nel catalogo.
@@ -202,7 +206,7 @@ Nottilo grows with the people who use it. Three ways to help:
 
 **Privacy:** chiavi, nome e città restano solo sul televisore. Nottilo non ha server e non raccoglie nulla.
 
-**Permessi e sicurezza:** il codice di Nottilo non è ancora pubblico (nasce dal progetto open source Free My TV), quindi qui sopra, in [Permissions & security](#permissions--security), c'è l'elenco di ogni permesso e del perché serve. In breve: niente pubblicità, statistiche o tracciamento. Si collega solo a TMDB (con la chiave integrata in Nottilo o la tua), a OMDb, Watchmode e YouTube se aggiungi le tue chiavi, Open‑Meteo per il meteo, GitHub per gli aggiornamenti e, se lo attivi, al tuo Google Drive per il backup. Il servizio di accessibilità vede solo quando compare la Home di Amazon (Fire TV) o della TV (Android TV): non legge lo schermo, i testi o i tasti. Puoi controllare l'APK su **[VirusTotal](https://www.virustotal.com/gui/file/4f7705540ffed6a0aff9273c69c4599b02348699d1e0c2c7b8ef0edb89ece925)** e confrontarne l'impronta SHA‑256 con quella indicata sopra.
+**Permessi e sicurezza:** il codice di Nottilo non è ancora pubblico (nasce dal progetto open source Free My TV), quindi qui sopra, in [Permissions & security](#permissions--security), c'è l'elenco di ogni permesso e del perché serve. In breve: niente pubblicità, statistiche o tracciamento. Si collega solo a TMDB (con la chiave integrata in Nottilo o la tua), a OMDb, Watchmode e YouTube se aggiungi le tue chiavi, Open‑Meteo per il meteo, GitHub per gli aggiornamenti e, se lo attivi, al tuo Google Drive per il backup. Il servizio di accessibilità vede solo quando compare la Home di Amazon (Fire TV) o della TV (Android TV): non legge lo schermo, i testi o i tasti. Puoi controllare l'APK su **[VirusTotal](https://www.virustotal.com/gui/file/881396828336c6781f560dc31e72680acb8349321a39e3f32206dd991b92bdc8)** e confrontarne l'impronta SHA‑256 con quella indicata sopra.
 
 **Contribuisci al progetto**
 - ☕ **[Sostienilo su Ko‑fi](https://ko-fi.com/nottilo)**: Nottilo è gratuito e fatto da una persona sola, ogni caffè diventa nuove funzioni. Senza account, con PayPal o carta.
