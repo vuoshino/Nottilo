@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/vuoshino/Nottilo/releases/latest/download/Nottilo.apk"><img alt="Download Nottilo.apk" src="https://img.shields.io/badge/%E2%AC%87%20Download-Nottilo.apk-1f6feb?style=for-the-badge"></a>
   <a href="https://github.com/vuoshino/Nottilo/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/vuoshino/Nottilo/total?style=for-the-badge&label=%E2%AC%87%20downloads&color=6e40c9&cacheSeconds=3600"></a>
-  <a href="https://www.virustotal.com/gui/file/f06a780a2f7de6d8b20df2e443193c9258005bb7685cb1836cfc5d95caaebe1b"><img alt="VirusTotal: 0 detections" src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F%20VirusTotal-0%20detections-2ea043?style=for-the-badge"></a>
+  <a href="https://www.virustotal.com/gui/file/f9e1ebe5cdb2b7ff70b9c42aa1e81f744d8b7bf4d9ff5a7ad2366ef1782e6e30"><img alt="VirusTotal: 0 detections" src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F%20VirusTotal-0%20detections-2ea043?style=for-the-badge"></a>
   <a href="https://ko-fi.com/nottilo"><img alt="Support on Ko-fi" src="https://img.shields.io/badge/%E2%98%95%20Support-Ko--fi-FF5E5B?style=for-the-badge"></a>
   <a href="https://paypal.me/costantinishipping"><img alt="Donate with PayPal" src="https://img.shields.io/badge/%F0%9F%92%B3%20Donate-PayPal-0070BA?style=for-the-badge"></a>
   <a href="https://github.com/vuoshino/Nottilo/issues/new/choose"><img alt="Suggest an idea" src="https://img.shields.io/badge/%F0%9F%92%A1%20Ideas%20%26%20bugs-Issues-2ea043?style=for-the-badge"></a>
@@ -145,9 +145,9 @@ No ads, no analytics, no trackers, no accounts, no Nottilo server.
 
 **Check the APK yourself**
 
-- 🛡️ **[VirusTotal scan of the current APK](https://www.virustotal.com/gui/file/f06a780a2f7de6d8b20df2e443193c9258005bb7685cb1836cfc5d95caaebe1b)** — **0 detections** out of about 70 antivirus engines.
-- **SHA‑256 of Nottilo 1.3.5:**
-  `f06a780a2f7de6d8b20df2e443193c9258005bb7685cb1836cfc5d95caaebe1b`  
+- 🛡️ **[VirusTotal scan of the current APK](https://www.virustotal.com/gui/file/f9e1ebe5cdb2b7ff70b9c42aa1e81f744d8b7bf4d9ff5a7ad2366ef1782e6e30)** — **0 detections** out of about 70 antivirus engines.
+- **SHA‑256 of Nottilo 1.3.6:**
+  `f9e1ebe5cdb2b7ff70b9c42aa1e81f744d8b7bf4d9ff5a7ad2366ef1782e6e30`  
   Check it with `certutil -hashfile Nottilo.apk SHA256` (Windows) or `shasum -a 256 Nottilo.apk` (Mac, Linux). Each version's value is also in [download/latest.json](download/latest.json).
 - **Signing certificate (SHA‑256):**
   `26ed25a1fc9e32bf362c3f0d7b20c77cb24594d9b5a2f610a6de8a8375954eba`  
@@ -215,7 +215,7 @@ Nottilo grows with the people who use it. Three ways to help:
 
 **Privacy:** chiavi, nome e città restano solo sul televisore. Nottilo non ha server e non raccoglie nulla.
 
-**Permessi e sicurezza:** il codice di Nottilo non è ancora pubblico (nasce dal progetto open source Free My TV), quindi qui sopra, in [Permissions & security](#permissions--security), c'è l'elenco di ogni permesso e del perché serve. In breve: niente pubblicità, statistiche o tracciamento. Si collega solo a TMDB (con la chiave integrata in Nottilo o la tua), a OMDb, Watchmode e YouTube se aggiungi le tue chiavi, a YouTube per la scheda YouTube, Open‑Meteo per il meteo, Wikimedia Commons per la foto del giorno (se la scegli come sfondo), Wikidata quando apri un film (riceve solo il suo numero TMDB, per trovarne la pagina sul servizio), GitHub per gli aggiornamenti e, se lo attivi, al tuo Google Drive per il backup. Il servizio di accessibilità vede solo quando compare la Home di Amazon (Fire TV) o della TV (Android TV): non legge lo schermo, i testi o i tasti. Puoi controllare l'APK su **[VirusTotal](https://www.virustotal.com/gui/file/f06a780a2f7de6d8b20df2e443193c9258005bb7685cb1836cfc5d95caaebe1b)** e confrontarne l'impronta SHA‑256 con quella indicata sopra.
+**Permessi e sicurezza:** il codice di Nottilo non è ancora pubblico (nasce dal progetto open source Free My TV), quindi qui sopra, in [Permissions & security](#permissions--security), c'è l'elenco di ogni permesso e del perché serve. In breve: niente pubblicità, statistiche o tracciamento. Si collega solo a TMDB (con la chiave integrata in Nottilo o la tua), a OMDb, Watchmode e YouTube se aggiungi le tue chiavi, a YouTube per la scheda YouTube, Open‑Meteo per il meteo, Wikimedia Commons per la foto del giorno (se la scegli come sfondo), Wikidata quando apri un film (riceve solo il suo numero TMDB, per trovarne la pagina sul servizio), GitHub per gli aggiornamenti e, se lo attivi, al tuo Google Drive per il backup. Il servizio di accessibilità vede solo quando compare la Home di Amazon (Fire TV) o della TV (Android TV): non legge lo schermo, i testi o i tasti. Puoi controllare l'APK su **[VirusTotal](https://www.virustotal.com/gui/file/f9e1ebe5cdb2b7ff70b9c42aa1e81f744d8b7bf4d9ff5a7ad2366ef1782e6e30)** e confrontarne l'impronta SHA‑256 con quella indicata sopra.
 
 **Contribuisci al progetto**
 - ☕ **[Sostienilo su Ko‑fi](https://ko-fi.com/nottilo)**: Nottilo è gratuito e fatto da una persona sola, ogni caffè diventa nuove funzioni. Chi sostiene il progetto ha la precedenza su richieste e idee, e il suo nome è ringraziato nell'app (Impostazioni → Info). Senza account, con PayPal o carta.
