@@ -1,13 +1,14 @@
 # Nottilo
 
-**A free launcher for Fire TV and Android TV.** A clean home screen with your apps, movie and series picks from the services you have, a catalog by genre, and the weather. No ads, no sign-up, no data collected.
+**A free launcher for Fire TV and Android TV — now with a phone app.** A clean home screen with your apps, movie and series picks from the services you have, a catalog to explore by genre and mood, and the weather. No ads, no sign-up, no data collected.
 
 <p align="center"><img src="screenshots/home.jpg" alt="Nottilo home screen" width="100%"></p>
 
 <p align="center">
   <a href="https://github.com/vuoshino/Nottilo/releases/latest/download/Nottilo.apk"><img alt="Download Nottilo.apk" src="https://img.shields.io/badge/%E2%AC%87%20Download-Nottilo.apk-1f6feb?style=for-the-badge"></a>
+  <a href="https://github.com/vuoshino/Nottilo/releases/latest/download/Nottilo-Phone.apk"><img alt="Download the phone app" src="https://img.shields.io/badge/%F0%9F%93%B1%20Phone%20app-Nottilo--Phone.apk-0a84ff?style=for-the-badge"></a>
   <a href="https://github.com/vuoshino/Nottilo/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/vuoshino/Nottilo/total?style=for-the-badge&label=%E2%AC%87%20downloads&color=6e40c9&cacheSeconds=3600"></a>
-  <a href="https://www.virustotal.com/gui/file/f9e1ebe5cdb2b7ff70b9c42aa1e81f744d8b7bf4d9ff5a7ad2366ef1782e6e30"><img alt="VirusTotal: 0 detections" src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F%20VirusTotal-0%20detections-2ea043?style=for-the-badge"></a>
+  <a href="https://www.virustotal.com/gui/file/f37a3c7c9df27d13fef8c6c2d8a85a99b6ecf05b12366d177b3c9b2c372bb679"><img alt="VirusTotal: 0 detections" src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F%20VirusTotal-0%20detections-2ea043?style=for-the-badge"></a>
   <a href="https://ko-fi.com/nottilo"><img alt="Support on Ko-fi" src="https://img.shields.io/badge/%E2%98%95%20Support-Ko--fi-FF5E5B?style=for-the-badge"></a>
   <a href="https://paypal.me/costantinishipping"><img alt="Donate with PayPal" src="https://img.shields.io/badge/%F0%9F%92%B3%20Donate-PayPal-0070BA?style=for-the-badge"></a>
   <a href="https://github.com/vuoshino/Nottilo/issues/new/choose"><img alt="Suggest an idea" src="https://img.shields.io/badge/%F0%9F%92%A1%20Ideas%20%26%20bugs-Issues-2ea043?style=for-the-badge"></a>
@@ -16,13 +17,42 @@
 <p align="center"><b>Fire TV: open the <i>Downloader</i> app and type <code>4953459</code></b></p>
 
 <p align="center"><b>Nottilo is free and made by one person. If you like it, support it on <a href="https://ko-fi.com/nottilo">Ko‑fi</a> or <a href="https://paypal.me/costantinishipping">PayPal</a> ☕ — every coffee goes into new features, and supporters' requests come first.</b><br>
-<a href="#italiano">Italiano</a> · <a href="#permissions--security">Permissions &amp; security</a> · <a href="#contribute">How to contribute</a></p>
+<a href="#italiano">Italiano</a> · <a href="#nottilo-for-your-phone">Phone app</a> · <a href="#nottilo-plus">Nottilo Plus</a> · <a href="#permissions--security">Permissions &amp; security</a> · <a href="#contribute">How to contribute</a></p>
+
+## Nottilo for your phone
+
+<p align="center"><b>New · free · Android 8 or newer</b> — the catalog, trailers and your lists in your pocket, and a film starts on the TV with one tap.</p>
+
+<p align="center"><a href="https://github.com/vuoshino/Nottilo/releases/latest/download/Nottilo-Phone.apk"><img src="screenshots/phone.jpg" alt="Nottilo's phone app" width="100%"></a></p>
+
+<p align="center">
+  <a href="https://github.com/vuoshino/Nottilo/releases/latest/download/Nottilo-Phone.apk"><img alt="Download the phone app" src="https://img.shields.io/badge/%F0%9F%93%B1%20Download%20for%20Android-Nottilo--Phone.apk-0a84ff?style=for-the-badge"></a>
+</p>
+
+| | | |
+| :---: | :---: | :---: |
+| <img src="screenshots/phone-catalog.png" width="230" alt="Catalog"> | <img src="screenshots/phone-explore.png" width="230" alt="Explore a genre"> | <img src="screenshots/phone-title.png" width="230" alt="A film's page"> |
+| **Catalog** — picks for you, genres, ideas for tonight, a themed row every day | **Explore** — every genre with its subgenres; popular, best, recent | **A film's page** — scores, where to watch, cast, *Watch on TV* |
+| <img src="screenshots/phone-trailer.png" width="230" alt="Trailer"> | <img src="screenshots/phone-remote.png" width="230" alt="Remote"> | <img src="screenshots/phone-alerts.png" width="230" alt="Alerts"> |
+| **Trailers** — on the phone or on the TV | **Remote and keyboard** — type searches from the phone | **Alerts** *(Plus)* — when a film arrives on your services, or its trailer is out |
+
+- **Works on its own** — browse, search by title or by actor (with each person's page), keep your list and ratings, even with no TV.
+- **With Nottilo on your TV** — one tap and the film opens on the TV in the right app, on its own page when it can; the remote and the keyboard; the TV's settings (wallpaper, home tabs, family mode) with a live preview of the TV's home.
+- **Always in step** — My list, ratings and watched titles are the same on the TV and the phone; what you did on the phone before connecting is merged, nothing is lost. Profiles too: each phone can be someone else.
+
+**Install:** download **[Nottilo-Phone.apk](https://github.com/vuoshino/Nottilo/releases/latest/download/Nottilo-Phone.apk)** on your Android phone, or scan the code in Nottilo on the TV (Settings, on the left, under the coffee). **Connect it:** Nottilo on the TV → Home Settings → *Phone app* shows a 4‑digit code; type it in the app (same Wi‑Fi). The remote's arrows use the TV's debugging connection: the first time, accept *Allow USB debugging?* on the TV.
+
+<sub>The pictures above are drawn from the app's own screens, with made-up titles.</sub>
 
 ---
 
 ## Features
 
 - **Replaces the Fire TV home screen — with a single command, once.** The Home button opens Nottilo, no root, nothing uninstalled, and one option brings Amazon's home back. [How ↓](#make-nottilo-your-home-button)
+- **Explore the catalog** — genres with their subgenres (supernatural, slasher, zombies, heists, time travel…), moods (*true stories*, *twists*, *from a book*), countries, *under 100 minutes*, hidden gems and classics. Each one opens its own page with *Popular*, *Best* and *Recent*, with its own years and rating, and every row ends with **See all**: the whole list as a grid. A themed row changes every day.
+- **Search by actor or director** — type a name and their films come as a row under the results.
+- **Profiles** — *Who's watching*: each person with their own list and watched titles (Home Settings).
+- **A phone app** — the catalog, trailers and your lists in your pocket; one tap and the film starts on the TV; remote and keyboard. [More ↓](#nottilo-for-your-phone)
 - **Picks for tonight** — well-rated movies and series from the streaming services available in your country, with poster, plot, length and where to watch. They change often: three new ones each time you come back from an app.
 - **Tabs by mood** — Horror, Mystery, Thriller, Sci‑Fi, plus a YouTube tab: the trailers of the new films in cinemas and coming soon, or the latest videos of your channels. Choose which tabs to show in Home Settings.
 - **Family mode** — for homes with children: no horror, thrillers or films for adults (up to PG‑13) in the picks and the catalog. Or turn the film picks off entirely for a clean home with your apps, the clock and the weather.
@@ -46,6 +76,12 @@
 - **Quick guide** — a short tour on first start, and anytime in Settings → *Quick guide*.
 - **Report a problem in a moment** — Settings → *About* shows a code: scan it with your phone and the report opens on GitHub with your TV model and version already filled in.
 
+## Nottilo Plus
+
+Everything above stays free. **Plus** is a one‑time payment that supports Nottilo and adds, in the phone app: alerts when a film of your list arrives on your services or a new season comes out, alerts when a trailer is out, *Your year* (your year in films, to share), themes and app icons, and a voice in what comes next — you vote on the next features and can write to the developer directly.
+
+Three tiers, the same Plus for all: **Plus 2.99 €**, **Supporter 5.99 €**, **Patron 12.99 €**. Pay on Ko‑fi or PayPal and write your email in the message: within a day you get your code, with a link that unlocks it. One code unlocks your phone, and the TV it's paired with thanks you by name. Already supported Nottilo before? Write to the developer: Plus is a gift for you.
+
 ## Screenshots
 
 | | |
@@ -60,6 +96,7 @@
 ## Requirements
 
 - Amazon Fire TV Stick / Cube (Fire OS 7 or 8), or an Android TV / Google TV with Android 8 or newer.
+- For the phone app: an Android phone with Android 8 or newer, on the same Wi‑Fi as the TV to control it (the catalog works anywhere).
 - Nothing else: no account and no key needed. Optional free keys — [OMDb](https://www.omdbapi.com/apikey.aspx) (IMDb and Rotten Tomatoes scores), [Watchmode](https://api.watchmode.com/) (direct links), YouTube (search) — add extras.
 
 ## Install
@@ -104,7 +141,7 @@ The moment the command arrives, Nottilo takes over the Home button by itself, an
 
 ## Privacy
 
-Your keys, name and city stay **on your TV only**. Nottilo has no server and collects nothing. It talks only to TMDB for film data (with Nottilo's built-in key, or yours), to the services you add a key for (OMDb, Watchmode, YouTube), to YouTube for the YouTube tab, to Open‑Meteo for the weather, to Wikimedia Commons for the photo of the day (if chosen as wallpaper), to Wikidata to find a title's page on its service (only the film's TMDB number is sent), and to GitHub for updates.
+Your keys, name and city stay **on your TV only** (and on your phone, if you pair the phone app). Nottilo has no server and collects nothing. It talks only to TMDB for film data (with Nottilo's built-in key, or yours), to the services you add a key for (OMDb, Watchmode, YouTube), to YouTube for the YouTube tab, to Open‑Meteo for the weather, to Wikimedia Commons for the photo of the day (if chosen as wallpaper), to Wikidata to find a title's page on its service (only the film's TMDB number is sent), and to GitHub for updates.
 
 ## Permissions & security
 
@@ -120,6 +157,7 @@ Nottilo's own source code isn't public yet (it's built on the open‑source [Fre
 | Read your pictures | Only if you choose **Wallpaper → A picture saved on the TV**: Android asks first. Nottilo copies just the picture you pick, as the wallpaper. |
 | Request to uninstall apps | **Uninstall** in an app's menu: it only opens Android's own *Uninstall?* question, and nothing goes without your OK there. The TV's own apps can't be uninstalled from Nottilo. |
 | Read TV channels | The Live TV row, on TVs that have channels. |
+| Keep awake (wake lock) | Keeps the TV's Wi‑Fi from dozing off, so the phone app can reach it. |
 | Install apps | Installing a Nottilo update — only after you confirm it. |
 | Write secure settings | Granted **only if you run the adb command yourself**. Lets Nottilo keep its Home‑button service switched on after updates and restarts. Nothing else. |
 | Accessibility: *Home button* (Fire TV) | Notices only when Amazon's home screen comes to the front, then opens Nottilo. It watches Amazon's launcher only and **cannot read the screen, text or keys**. |
@@ -128,6 +166,7 @@ Nottilo's own source code isn't public yet (it's built on the open‑source [Fre
 
 - **Android TV:** when *you* choose to make Nottilo your home, it uses the TV's own debugging connection (on the TV itself, never over the internet) to turn on its Home button service and its screensaver — after asking. No app of the TV is turned off.
 - **Close app:** if the TV already allows Nottilo's debugging connection (Android TV, after the Home button setup), *Close app* uses it for a real force stop of that one app; otherwise Android just ends the app's background processes. Nottilo never asks for debugging just to close an app.
+- **Phone app:** the TV answers on your home Wi‑Fi (port 8687, announced on the local network as *Nottilo*) **only to phones paired with the 4‑digit code** shown on the TV; each phone gets its own key, and you can unpair it from the TV. It never goes through the internet. The phone app's remote uses the TV's debugging connection, after you accept it on the TV.
 - **Phone setup:** while the *Keys* screen is open, the TV shows a small page on your Wi‑Fi, protected by a PIN inside the QR code. It stops as soon as you leave that screen.
 
 **Where it connects — and nowhere else**
@@ -140,14 +179,16 @@ Nottilo's own source code isn't public yet (it's built on the open‑source [Fre
 - Wikidata — only when you open a film or show: its TMDB number, to find its page on Netflix, Prime Video, Disney+ or Apple TV (open data, no account)
 - GitHub — to check for updates
 - Google — only if you set up the optional backup, and only to your own Drive
+- The phone app — the same services (TMDB, and OMDb and Watchmode with the TV's keys), YouTube for trailers, GitHub for the next features' list, and Cloudflare's DNS (1.1.1.1) only when your network's DNS can't find TMDB
 
 No ads, no analytics, no trackers, no accounts, no Nottilo server.
 
 **Check the APK yourself**
 
-- 🛡️ **[VirusTotal scan of the current APK](https://www.virustotal.com/gui/file/f9e1ebe5cdb2b7ff70b9c42aa1e81f744d8b7bf4d9ff5a7ad2366ef1782e6e30)** — **0 detections** out of about 70 antivirus engines.
-- **SHA‑256 of Nottilo 1.3.6:**
-  `f9e1ebe5cdb2b7ff70b9c42aa1e81f744d8b7bf4d9ff5a7ad2366ef1782e6e30`  
+- 🛡️ **[VirusTotal scan of the current APK](https://www.virustotal.com/gui/file/f37a3c7c9df27d13fef8c6c2d8a85a99b6ecf05b12366d177b3c9b2c372bb679)** — **0 detections** out of about 70 antivirus engines.
+- **SHA‑256 of Nottilo 1.4.0:**
+  `f37a3c7c9df27d13fef8c6c2d8a85a99b6ecf05b12366d177b3c9b2c372bb679`  
+  **Phone app 1.0:** `63b29b800b16ddb27daada7e1b9e87810d2d72f473278ad76f90e6ceee3187ef`  
   Check it with `certutil -hashfile Nottilo.apk SHA256` (Windows) or `shasum -a 256 Nottilo.apk` (Mac, Linux). Each version's value is also in [download/latest.json](download/latest.json).
 - **Signing certificate (SHA‑256):**
   `26ed25a1fc9e32bf362c3f0d7b20c77cb24594d9b5a2f610a6de8a8375954eba`  
@@ -168,12 +209,15 @@ Nottilo grows with the people who use it. Three ways to help:
 
 ## Italiano
 
-**Un launcher gratuito per Fire TV e Android TV.** Una Home pulita con le tue app, consigli di film e serie dai servizi che hai, catalogo per genere e meteo. Niente pubblicità, nessuna registrazione, nessun dato raccolto.
+**Un launcher gratuito per Fire TV e Android TV, ora anche con l'app per telefono.** Una Home pulita con le tue app, consigli di film e serie dai servizi che hai, un catalogo da esplorare per genere e atmosfera, e il meteo. Niente pubblicità, nessuna registrazione, nessun dato raccolto.
 
-**Su Fire TV: apri Downloader e scrivi `4953459`** · **[⬇ Scarica Nottilo.apk](https://github.com/vuoshino/Nottilo/releases/latest/download/Nottilo.apk)** · **[☕ Sostienilo su Ko‑fi](https://ko-fi.com/nottilo)** · **[💳 Dona con PayPal](https://paypal.me/costantinishipping)** · **[💡 Idee e segnalazioni](https://github.com/vuoshino/Nottilo/issues/new/choose)**
+**Su Fire TV: apri Downloader e scrivi `4953459`** · **[⬇ Scarica Nottilo.apk](https://github.com/vuoshino/Nottilo/releases/latest/download/Nottilo.apk)** · **[📱 App per telefono](https://github.com/vuoshino/Nottilo/releases/latest/download/Nottilo-Phone.apk)** · **[☕ Sostienilo su Ko‑fi](https://ko-fi.com/nottilo)** · **[💳 Dona con PayPal](https://paypal.me/costantinishipping)** · **[💡 Idee e segnalazioni](https://github.com/vuoshino/Nottilo/issues/new/choose)**
 
 **Cosa fa**
 - **Sostituisce la Home della Fire TV con un solo comando, da dare una volta.** Il tasto Home apre Nottilo: niente root, non si disinstalla nulla, e un'opzione riporta la Home di Amazon.
+- **Esplora il catalogo:** i generi con i loro sottogeneri (soprannaturale, slasher, zombie, colpi grossi, viaggi nel tempo…), le atmosfere (*storie vere*, *colpi di scena*, *tratti da un libro*), i paesi, *sotto i 100 minuti*, gemme nascoste e classici. Ognuno ha la sua pagina con *Popolari*, *I migliori* e *Recenti*, con anni e voto suoi, e ogni riga finisce con **Vedi tutti**, l'elenco completo a griglia. Una riga a tema cambia ogni giorno.
+- **Cerca per attore o regista:** scrivi un nome e i suoi film arrivano in una riga sotto i risultati.
+- **Profili:** *Chi guarda*, ognuno con la sua lista e i suoi già visti (Impostazioni Home).
 - Consigli per stasera, film e serie ben votati dai servizi di streaming del tuo paese, con locandina, trama, durata e dove guardarli. Cambiano spesso: tre nuovi ogni volta che torni da un'app.
 - Schede Horror, Mistero, Thriller, Fantascienza e YouTube (i trailer dei nuovi film al cinema e in arrivo, oppure gli ultimi video dei tuoi canali). In Impostazioni Home scegli quali schede mostrare.
 - **Modalità famiglia:** per le case con bambini, niente horror, thriller o film per adulti (fino al PG‑13) nei consigli e nel catalogo. Oppure spegni del tutto i consigli di film: la home resta con le tue app, l'orologio e il meteo.
@@ -196,6 +240,12 @@ Nottilo grows with the people who use it. Three ways to help:
 - **Libera memoria con un tasto:** la scorciatoia *Libera memoria* chiude le app rimaste aperte in background, così la chiavetta resta veloce.
 - Backup come file sul telefono o automatico sul tuo Google Drive.
 
+<p align="center"><a href="https://github.com/vuoshino/Nottilo/releases/latest/download/Nottilo-Phone.apk"><img src="screenshots/phone.jpg" alt="L'app di Nottilo per telefono" width="100%"></a></p>
+
+**📱 App per telefono (nuova):** gratuita, per Android 8 o successivo. Funziona anche da sola: catalogo, generi e sottogeneri, trailer, ricerca per titolo o per attore, la tua lista. Con Nottilo sulla TV: un tocco e il film parte sul televisore, telecomando e tastiera, liste e voti sempre uguali su TV e telefono, impostazioni della TV con l'anteprima dal vivo. **[⬇ Scarica Nottilo-Phone.apk](https://github.com/vuoshino/Nottilo/releases/latest/download/Nottilo-Phone.apk)** oppure inquadra il codice nelle Impostazioni di Nottilo sulla TV; per collegarla, Impostazioni Home → *App per telefono* mostra un codice di 4 cifre da scrivere nell'app.
+
+**Nottilo Plus:** tutto quello che c'è resta gratis. Plus è un pagamento unico che sostiene Nottilo e aggiunge, nell'app per telefono: avvisi quando un film della tua lista arriva sui tuoi servizi o esce una nuova stagione, avviso quando esce un trailer, *Il tuo anno*, temi e icone dell'app, e voce in capitolo sulle prossime funzioni (le voti e scrivi direttamente allo sviluppatore). Plus 2,99 €, Sostenitore 5,99 €, Mecenate 12,99 €: stesso Plus per tutti. Paghi su Ko‑fi o PayPal scrivendo la tua email nel messaggio, ed entro un giorno ricevi il codice con un link che lo attiva.
+
 **Installazione:** Opzioni sviluppatore → *Debug ADB* attivo e origini sconosciute per *Downloader* → in Downloader scrivi il codice **`4953459`** → apri Nottilo: funziona subito, senza account né chiavi. Le chiavi facoltative (voti IMDb e Rotten Tomatoes, link diretti, ricerca YouTube) si aggiungono dal telefono in Impostazioni → *Chiavi e account*. 
 
 **Nottilo come Home (tasto Home)**
@@ -213,9 +263,9 @@ Nottilo grows with the people who use it. Three ways to help:
 
 **Aggiornare:** basta premere **Cerca aggiornamenti**. Scendi sotto le tue app per aprire il cassetto, scegli *Cerca aggiornamenti* e conferma: non serve riscaricare nulla. Nottilo controlla anche da solo ogni poche ore e chiede prima di installare.
 
-**Privacy:** chiavi, nome e città restano solo sul televisore. Nottilo non ha server e non raccoglie nulla.
+**Privacy:** chiavi, nome e città restano solo sul televisore (e sul telefono, se colleghi l'app). Nottilo non ha server e non raccoglie nulla. La TV risponde all'app per telefono solo sul Wi‑Fi di casa e solo ai telefoni collegati con il codice di 4 cifre.
 
-**Permessi e sicurezza:** il codice di Nottilo non è ancora pubblico (nasce dal progetto open source Free My TV), quindi qui sopra, in [Permissions & security](#permissions--security), c'è l'elenco di ogni permesso e del perché serve. In breve: niente pubblicità, statistiche o tracciamento. Si collega solo a TMDB (con la chiave integrata in Nottilo o la tua), a OMDb, Watchmode e YouTube se aggiungi le tue chiavi, a YouTube per la scheda YouTube, Open‑Meteo per il meteo, Wikimedia Commons per la foto del giorno (se la scegli come sfondo), Wikidata quando apri un film (riceve solo il suo numero TMDB, per trovarne la pagina sul servizio), GitHub per gli aggiornamenti e, se lo attivi, al tuo Google Drive per il backup. Il servizio di accessibilità vede solo quando compare la Home di Amazon (Fire TV) o della TV (Android TV): non legge lo schermo, i testi o i tasti. Puoi controllare l'APK su **[VirusTotal](https://www.virustotal.com/gui/file/f9e1ebe5cdb2b7ff70b9c42aa1e81f744d8b7bf4d9ff5a7ad2366ef1782e6e30)** e confrontarne l'impronta SHA‑256 con quella indicata sopra.
+**Permessi e sicurezza:** il codice di Nottilo non è ancora pubblico (nasce dal progetto open source Free My TV), quindi qui sopra, in [Permissions & security](#permissions--security), c'è l'elenco di ogni permesso e del perché serve. In breve: niente pubblicità, statistiche o tracciamento. Si collega solo a TMDB (con la chiave integrata in Nottilo o la tua), a OMDb, Watchmode e YouTube se aggiungi le tue chiavi, a YouTube per la scheda YouTube, Open‑Meteo per il meteo, Wikimedia Commons per la foto del giorno (se la scegli come sfondo), Wikidata quando apri un film (riceve solo il suo numero TMDB, per trovarne la pagina sul servizio), GitHub per gli aggiornamenti e, se lo attivi, al tuo Google Drive per il backup. Il servizio di accessibilità vede solo quando compare la Home di Amazon (Fire TV) o della TV (Android TV): non legge lo schermo, i testi o i tasti. Puoi controllare l'APK su **[VirusTotal](https://www.virustotal.com/gui/file/f37a3c7c9df27d13fef8c6c2d8a85a99b6ecf05b12366d177b3c9b2c372bb679)** e confrontarne l'impronta SHA‑256 con quella indicata sopra.
 
 **Contribuisci al progetto**
 - ☕ **[Sostienilo su Ko‑fi](https://ko-fi.com/nottilo)**: Nottilo è gratuito e fatto da una persona sola, ogni caffè diventa nuove funzioni. Chi sostiene il progetto ha la precedenza su richieste e idee, e il suo nome è ringraziato nell'app (Impostazioni → Info). Senza account, con PayPal o carta.

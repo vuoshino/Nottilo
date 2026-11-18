@@ -1,0 +1,10 @@
+{
+ "note": "Next features, voted by Nottilo Plus supporters in the phone app. Votes are counted by hand from their messages.",
+ "items": [
+  {"id": "shared-list", "en": "A list shared by the whole family", "it": "Lista condivisa con la famiglia", "votes": 0},
+  {"id": "continue", "en": "Continue watching on the home screen", "it": "Continua a guardare sulla home", "votes": 0},
+  {"id": "jellyfin", "en": "Jellyfin and Plex", "it": "Supporto Jellyfin e Plex", "votes": 0},
+  {"id": "widgets", "en": "Phone widgets (tonight's pick, remote)", "it": "Widget sul telefono (consiglio della sera, telecomando)", "votes": 0},
+  {"id": "reorder-phone", "en": "Reorder the TV's apps from the phone", "it": "Riordinare le app della TV dal telefono", "votes": 0}
+ ]
+}
